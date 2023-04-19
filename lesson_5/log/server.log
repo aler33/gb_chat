@@ -1,0 +1,68 @@
+2023-04-19 22:42:48,000 - INFO - server - start program 
+2023-04-19 22:46:27,885 - INFO - server - start program 
+2023-04-19 22:52:17,413 - INFO - server - start program 
+2023-04-19 22:52:21,177 - INFO - server - connecting from ('127.0.0.1', 44962) port <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44962)> 
+2023-04-19 22:58:10,013 - INFO - server - start program 
+2023-04-19 22:58:18,990 - INFO - server - connecting from ('127.0.0.1', 60430) 
+2023-04-19 22:58:18,990 - INFO - server - ('127.0.0.1', 60430) : {'action': 'presence', 'time': 1681934298.990511, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 22:58:18,990 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 22:58:18,991 - INFO - server - message sent 
+2023-04-19 22:58:18,991 - INFO - server - client finished 
+2023-04-19 23:01:44,513 - INFO - server - connecting from ('127.0.0.1', 51556) 
+2023-04-19 23:01:44,514 - INFO - server - ('127.0.0.1', 51556) : {'action1': 'presence', 'time': 1681934504.5139456, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:01:44,514 - ERROR - server - error - something went wrong 
+2023-04-19 23:01:44,514 - INFO - server - client finished 
+2023-04-19 23:02:18,228 - INFO - server - connecting from ('127.0.0.1', 58196) 
+2023-04-19 23:02:18,228 - INFO - server - ('127.0.0.1', 58196) : {'action': 'presence1', 'time': 1681934538.22847, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:02:18,228 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:02:18,228 - INFO - server - message sent 
+2023-04-19 23:02:18,228 - INFO - server - client finished 
+2023-04-19 23:05:19,945 - INFO - server - start program 
+2023-04-19 23:05:23,566 - INFO - server - connecting from ('127.0.0.1', 39190) 
+2023-04-19 23:05:23,567 - INFO - server - ('127.0.0.1', 39190) : {'action': 'presence1', 'time': 1681934723.5669205, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:23,567 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:05:23,567 - INFO - server - message sent 
+2023-04-19 23:05:23,567 - INFO - server - client finished 
+2023-04-19 23:05:40,801 - INFO - server - connecting from ('127.0.0.1', 40168) 
+2023-04-19 23:05:40,802 - INFO - server - ('127.0.0.1', 40168) : {'action': 'presence', 'time': 1681934740.8019385, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:40,802 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:05:40,802 - INFO - server - message sent 
+2023-04-19 23:05:40,802 - INFO - server - client finished 
+2023-04-19 23:05:46,120 - INFO - server - connecting from ('127.0.0.1', 40172) 
+2023-04-19 23:05:46,120 - INFO - server - ('127.0.0.1', 40172) : {'action1': 'presence', 'time': 1681934746.1205873, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:46,120 - ERROR - server - error - something went wrong 
+2023-04-19 23:05:46,120 - INFO - server - client finished 
+2023-04-19 23:11:03,246 - INFO - server - start program 
+2023-04-19 23:11:13,708 - INFO - server - connecting from ('127.0.0.1', 43810) 
+2023-04-19 23:11:13,709 - INFO - server - ('127.0.0.1', 43810) : {'action1': 'presence', 'time': 1681935073.7089858, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:11:13,709 - WARNING - server - no field 'action' 
+2023-04-19 23:11:13,709 - INFO - server - response {'response': 400, 'alert': 'Bad Request'} 
+2023-04-19 23:11:13,709 - INFO - server - message sent 
+2023-04-19 23:11:13,709 - INFO - server - client finished 
+2023-04-19 23:11:45,583 - INFO - server - connecting from ('127.0.0.1', 39672) 
+2023-04-19 23:11:45,584 - INFO - server - ('127.0.0.1', 39672) : {'action': 'presence', 'time': 1681935105.5840702, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:11:45,584 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:11:45,584 - INFO - server - message sent 
+2023-04-19 23:11:45,584 - INFO - server - client finished 
+2023-04-19 23:12:00,489 - INFO - server - connecting from ('127.0.0.1', 41790) 
+2023-04-19 23:12:00,489 - INFO - server - ('127.0.0.1', 41790) : {'action': 'presence1', 'time': 1681935120.4896386, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:12:00,489 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:12:00,489 - INFO - server - message sent 
+2023-04-19 23:12:00,489 - INFO - server - client finished 
+2023-04-19 23:14:25,852 - INFO - server - start program 
+2023-04-19 23:14:34,249 - INFO - server - connecting from ('127.0.0.1', 55500) 
+2023-04-19 23:14:34,249 - INFO - server - ('127.0.0.1', 55500) : {'action': 'presence1', 'time': 1681935274.2495658, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:14:34,249 - WARNING - server - 'action' not 'present' 
+2023-04-19 23:14:34,249 - INFO - server - message sent 
+2023-04-19 23:14:34,249 - INFO - server - client finished 
+2023-04-19 23:15:11,437 - INFO - server - connecting from ('127.0.0.1', 41610) 
+2023-04-19 23:15:11,438 - INFO - server - ('127.0.0.1', 41610) : {'action': 'presence', 'time': 1681935311.4381392, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:15:11,438 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:15:11,438 - INFO - server - message sent 
+2023-04-19 23:15:11,438 - INFO - server - client finished 
+2023-04-19 23:16:48,389 - INFO - server - start program 
+2023-04-19 23:16:54,723 - INFO - server - connecting from ('127.0.0.1', 54248) 
+2023-04-19 23:16:54,723 - INFO - server - ('127.0.0.1', 54248) : {'action': 'presence', 'time': 1681935414.7235112, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:16:54,723 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:16:54,723 - INFO - server - message sent 
+2023-04-19 23:16:54,723 - INFO - server - client finished 
