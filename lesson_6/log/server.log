@@ -1,0 +1,221 @@
+2023-04-19 22:42:48,000 - INFO - server - start program 
+2023-04-19 22:46:27,885 - INFO - server - start program 
+2023-04-19 22:52:17,413 - INFO - server - start program 
+2023-04-19 22:52:21,177 - INFO - server - connecting from ('127.0.0.1', 44962) port <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44962)> 
+2023-04-19 22:58:10,013 - INFO - server - start program 
+2023-04-19 22:58:18,990 - INFO - server - connecting from ('127.0.0.1', 60430) 
+2023-04-19 22:58:18,990 - INFO - server - ('127.0.0.1', 60430) : {'action': 'presence', 'time': 1681934298.990511, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 22:58:18,990 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 22:58:18,991 - INFO - server - message sent 
+2023-04-19 22:58:18,991 - INFO - server - client finished 
+2023-04-19 23:01:44,513 - INFO - server - connecting from ('127.0.0.1', 51556) 
+2023-04-19 23:01:44,514 - INFO - server - ('127.0.0.1', 51556) : {'action1': 'presence', 'time': 1681934504.5139456, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:01:44,514 - ERROR - server - error - something went wrong 
+2023-04-19 23:01:44,514 - INFO - server - client finished 
+2023-04-19 23:02:18,228 - INFO - server - connecting from ('127.0.0.1', 58196) 
+2023-04-19 23:02:18,228 - INFO - server - ('127.0.0.1', 58196) : {'action': 'presence1', 'time': 1681934538.22847, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:02:18,228 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:02:18,228 - INFO - server - message sent 
+2023-04-19 23:02:18,228 - INFO - server - client finished 
+2023-04-19 23:05:19,945 - INFO - server - start program 
+2023-04-19 23:05:23,566 - INFO - server - connecting from ('127.0.0.1', 39190) 
+2023-04-19 23:05:23,567 - INFO - server - ('127.0.0.1', 39190) : {'action': 'presence1', 'time': 1681934723.5669205, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:23,567 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:05:23,567 - INFO - server - message sent 
+2023-04-19 23:05:23,567 - INFO - server - client finished 
+2023-04-19 23:05:40,801 - INFO - server - connecting from ('127.0.0.1', 40168) 
+2023-04-19 23:05:40,802 - INFO - server - ('127.0.0.1', 40168) : {'action': 'presence', 'time': 1681934740.8019385, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:40,802 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:05:40,802 - INFO - server - message sent 
+2023-04-19 23:05:40,802 - INFO - server - client finished 
+2023-04-19 23:05:46,120 - INFO - server - connecting from ('127.0.0.1', 40172) 
+2023-04-19 23:05:46,120 - INFO - server - ('127.0.0.1', 40172) : {'action1': 'presence', 'time': 1681934746.1205873, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:05:46,120 - ERROR - server - error - something went wrong 
+2023-04-19 23:05:46,120 - INFO - server - client finished 
+2023-04-19 23:11:03,246 - INFO - server - start program 
+2023-04-19 23:11:13,708 - INFO - server - connecting from ('127.0.0.1', 43810) 
+2023-04-19 23:11:13,709 - INFO - server - ('127.0.0.1', 43810) : {'action1': 'presence', 'time': 1681935073.7089858, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:11:13,709 - WARNING - server - no field 'action' 
+2023-04-19 23:11:13,709 - INFO - server - response {'response': 400, 'alert': 'Bad Request'} 
+2023-04-19 23:11:13,709 - INFO - server - message sent 
+2023-04-19 23:11:13,709 - INFO - server - client finished 
+2023-04-19 23:11:45,583 - INFO - server - connecting from ('127.0.0.1', 39672) 
+2023-04-19 23:11:45,584 - INFO - server - ('127.0.0.1', 39672) : {'action': 'presence', 'time': 1681935105.5840702, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:11:45,584 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:11:45,584 - INFO - server - message sent 
+2023-04-19 23:11:45,584 - INFO - server - client finished 
+2023-04-19 23:12:00,489 - INFO - server - connecting from ('127.0.0.1', 41790) 
+2023-04-19 23:12:00,489 - INFO - server - ('127.0.0.1', 41790) : {'action': 'presence1', 'time': 1681935120.4896386, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:12:00,489 - INFO - server - response {'response': 404, 'alert': 'Not Found'} 
+2023-04-19 23:12:00,489 - INFO - server - message sent 
+2023-04-19 23:12:00,489 - INFO - server - client finished 
+2023-04-19 23:14:25,852 - INFO - server - start program 
+2023-04-19 23:14:34,249 - INFO - server - connecting from ('127.0.0.1', 55500) 
+2023-04-19 23:14:34,249 - INFO - server - ('127.0.0.1', 55500) : {'action': 'presence1', 'time': 1681935274.2495658, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:14:34,249 - WARNING - server - 'action' not 'present' 
+2023-04-19 23:14:34,249 - INFO - server - message sent 
+2023-04-19 23:14:34,249 - INFO - server - client finished 
+2023-04-19 23:15:11,437 - INFO - server - connecting from ('127.0.0.1', 41610) 
+2023-04-19 23:15:11,438 - INFO - server - ('127.0.0.1', 41610) : {'action': 'presence', 'time': 1681935311.4381392, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:15:11,438 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:15:11,438 - INFO - server - message sent 
+2023-04-19 23:15:11,438 - INFO - server - client finished 
+2023-04-19 23:16:48,389 - INFO - server - start program 
+2023-04-19 23:16:54,723 - INFO - server - connecting from ('127.0.0.1', 54248) 
+2023-04-19 23:16:54,723 - INFO - server - ('127.0.0.1', 54248) : {'action': 'presence', 'time': 1681935414.7235112, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-19 23:16:54,723 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-19 23:16:54,723 - INFO - server - message sent 
+2023-04-19 23:16:54,723 - INFO - server - client finished 
+2023-04-23 22:21:46,681 - INFO - server - start program 
+2023-04-23 22:21:51,167 - INFO - server - connecting from ('127.0.0.1', 56036) 
+2023-04-23 22:21:51,167 - INFO - server - ('127.0.0.1', 56036) :  
+2023-04-23 22:21:51,167 - ERROR - server - error - something went wrong 
+2023-04-23 22:21:51,167 - INFO - server - client finished 
+2023-04-23 22:31:23,858 - INFO - server - connecting from ('127.0.0.1', 54060) 
+2023-04-23 22:31:23,858 - INFO - server - ('127.0.0.1', 54060) :  
+2023-04-23 22:31:23,858 - ERROR - server - error - something went wrong 
+2023-04-23 22:31:23,859 - INFO - server - client finished 
+2023-04-23 22:32:36,628 - INFO - server - connecting from ('127.0.0.1', 48892) 
+2023-04-23 22:32:36,628 - INFO - server - ('127.0.0.1', 48892) :  
+2023-04-23 22:32:36,629 - ERROR - server - error - something went wrong 
+2023-04-23 22:32:36,629 - INFO - server - client finished 
+2023-04-23 22:33:06,915 - INFO - server - connecting from ('127.0.0.1', 34900) 
+2023-04-23 22:33:06,915 - INFO - server - ('127.0.0.1', 34900) :  
+2023-04-23 22:33:06,915 - ERROR - server - error - something went wrong 
+2023-04-23 22:33:06,915 - INFO - server - client finished 
+2023-04-23 22:33:21,483 - INFO - server - connecting from ('127.0.0.1', 57258) 
+2023-04-23 22:33:21,483 - INFO - server - ('127.0.0.1', 57258) :  
+2023-04-23 22:33:21,483 - ERROR - server - error - something went wrong 
+2023-04-23 22:33:21,483 - INFO - server - client finished 
+2023-04-23 22:33:52,732 - INFO - server - connecting from ('127.0.0.1', 51464) 
+2023-04-23 22:33:52,733 - INFO - server - ('127.0.0.1', 51464) :  
+2023-04-23 22:33:52,733 - ERROR - server - error - something went wrong 
+2023-04-23 22:33:52,733 - INFO - server - client finished 
+2023-04-23 22:34:52,989 - INFO - server - connecting from ('127.0.0.1', 52396) 
+2023-04-23 22:34:52,989 - INFO - server - ('127.0.0.1', 52396) :  
+2023-04-23 22:34:52,989 - ERROR - server - error - something went wrong 
+2023-04-23 22:34:52,989 - INFO - server - client finished 
+2023-04-23 22:36:19,476 - INFO - server - connecting from ('127.0.0.1', 50746) 
+2023-04-23 22:36:19,477 - INFO - server - ('127.0.0.1', 50746) :  
+2023-04-23 22:36:19,477 - ERROR - server - error - something went wrong 
+2023-04-23 22:36:19,477 - INFO - server - client finished 
+2023-04-23 22:37:26,469 - INFO - server - connecting from ('127.0.0.1', 37490) 
+2023-04-23 22:37:26,469 - INFO - server - ('127.0.0.1', 37490) :  
+2023-04-23 22:37:26,469 - ERROR - server - error - something went wrong 
+2023-04-23 22:37:26,469 - INFO - server - client finished 
+2023-04-23 22:40:19,872 - INFO - server - connecting from ('127.0.0.1', 50850) 
+2023-04-23 22:40:19,873 - INFO - server - ('127.0.0.1', 50850) :  
+2023-04-23 22:40:19,873 - ERROR - server - error - something went wrong 
+2023-04-23 22:40:19,873 - INFO - server - client finished 
+2023-04-23 22:41:03,307 - INFO - server - connecting from ('127.0.0.1', 45258) 
+2023-04-23 22:41:03,307 - INFO - server - ('127.0.0.1', 45258) :  
+2023-04-23 22:41:03,307 - ERROR - server - error - something went wrong 
+2023-04-23 22:41:03,307 - INFO - server - client finished 
+2023-04-23 22:42:01,682 - INFO - server - connecting from ('127.0.0.1', 36620) 
+2023-04-23 22:42:01,685 - INFO - server - ('127.0.0.1', 36620) :  
+2023-04-23 22:42:01,685 - ERROR - server - error - something went wrong 
+2023-04-23 22:42:01,685 - INFO - server - client finished 
+2023-04-23 22:42:16,715 - INFO - server - connecting from ('127.0.0.1', 57176) 
+2023-04-23 22:42:16,716 - INFO - server - ('127.0.0.1', 57176) : {'action': 'presence', 'time': 1682278936.7159603, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:42:16,716 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:42:16,716 - INFO - server - message sent 
+2023-04-23 22:42:16,716 - INFO - server - client finished 
+2023-04-23 22:42:27,800 - INFO - server - connecting from ('127.0.0.1', 42256) 
+2023-04-23 22:42:27,800 - INFO - server - ('127.0.0.1', 42256) : {'action': 'presence', 'time': 1682278947.8008337, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:42:27,800 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:42:27,801 - INFO - server - message sent 
+2023-04-23 22:42:27,801 - INFO - server - client finished 
+2023-04-23 22:43:09,607 - INFO - server - connecting from ('127.0.0.1', 38676) 
+2023-04-23 22:43:09,607 - INFO - server - ('127.0.0.1', 38676) : {'action': 'presence', 'time': 1682278989.6074328, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:43:09,607 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:43:09,607 - INFO - server - message sent 
+2023-04-23 22:43:09,607 - INFO - server - client finished 
+2023-04-23 22:52:30,620 - INFO - server - connecting from ('127.0.0.1', 36898) 
+2023-04-23 22:52:30,620 - INFO - server - ('127.0.0.1', 36898) : {'action': 'presence', 'time': 1682279550.6208112, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:52:30,620 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:52:30,621 - INFO - server - message sent 
+2023-04-23 22:52:30,621 - INFO - server - client finished 
+2023-04-23 22:53:09,553 - INFO - server - connecting from ('127.0.0.1', 58278) 
+2023-04-23 22:53:09,553 - INFO - server - ('127.0.0.1', 58278) : {'action': 'presence', 'time': 1682279589.5534644, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:53:09,553 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:53:09,553 - INFO - server - message sent 
+2023-04-23 22:53:09,553 - INFO - server - client finished 
+2023-04-23 22:53:32,043 - INFO - server - connecting from ('127.0.0.1', 36494) 
+2023-04-23 22:53:32,043 - INFO - server - ('127.0.0.1', 36494) : {'action': 'presence', 'time': 1682279612.0438228, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:53:32,044 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:53:32,044 - INFO - server - message sent 
+2023-04-23 22:53:32,044 - INFO - server - client finished 
+2023-04-23 22:54:50,605 - INFO - server - connecting from ('127.0.0.1', 53326) 
+2023-04-23 22:54:50,605 - INFO - server - ('127.0.0.1', 53326) : {'action': 'presence', 'time': 1682279690.6057022, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:54:50,605 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:54:50,605 - INFO - server - message sent 
+2023-04-23 22:54:50,606 - INFO - server - client finished 
+2023-04-23 22:55:20,653 - INFO - server - connecting from ('127.0.0.1', 37862) 
+2023-04-23 22:55:20,653 - INFO - server - ('127.0.0.1', 37862) : {'action': 'presence', 'time': 1682279720.6537352, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:55:20,653 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:55:20,654 - INFO - server - message sent 
+2023-04-23 22:55:20,654 - INFO - server - client finished 
+2023-04-23 22:56:40,310 - INFO - server - connecting from ('127.0.0.1', 38868) 
+2023-04-23 22:56:40,310 - INFO - server - ('127.0.0.1', 38868) : {'action': 'presence', 'time': 1682279800.3103027, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 22:56:40,310 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 22:56:40,310 - INFO - server - message sent 
+2023-04-23 22:56:40,310 - INFO - server - client finished 
+2023-04-23 23:00:44,878 - INFO - server - connecting from ('127.0.0.1', 50994) 
+2023-04-23 23:00:44,878 - INFO - server - ('127.0.0.1', 50994) : {'action': 'presence', 'time': 1682280044.878512, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:00:44,878 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:00:44,878 - INFO - server - message sent 
+2023-04-23 23:00:44,878 - INFO - server - client finished 
+2023-04-23 23:01:29,522 - INFO - server - connecting from ('127.0.0.1', 33696) 
+2023-04-23 23:01:29,523 - INFO - server - ('127.0.0.1', 33696) : {'action': 'presence', 'time': 1682280089.5231164, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:01:29,523 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:01:29,523 - INFO - server - message sent 
+2023-04-23 23:01:29,523 - INFO - server - client finished 
+2023-04-23 23:02:30,773 - INFO - server - connecting from ('127.0.0.1', 47644) 
+2023-04-23 23:02:30,774 - INFO - server - ('127.0.0.1', 47644) : {'action': 'presence', 'time': 1682280150.774173, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:02:30,774 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:02:30,774 - INFO - server - message sent 
+2023-04-23 23:02:30,774 - INFO - server - client finished 
+2023-04-23 23:02:47,877 - INFO - server - connecting from ('127.0.0.1', 50574) 
+2023-04-23 23:02:47,877 - INFO - server - ('127.0.0.1', 50574) : {'action': 'presence', 'time': 1682280167.8774004, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:02:47,877 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:02:47,877 - INFO - server - message sent 
+2023-04-23 23:02:47,877 - INFO - server - client finished 
+2023-04-23 23:04:18,973 - INFO - server - connecting from ('127.0.0.1', 47322) 
+2023-04-23 23:04:18,974 - INFO - server - ('127.0.0.1', 47322) : {'action': 'presence', 'time': 1682280258.974037, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:04:18,974 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:04:18,974 - INFO - server - message sent 
+2023-04-23 23:04:18,974 - INFO - server - client finished 
+2023-04-23 23:05:57,713 - INFO - server - connecting from ('127.0.0.1', 35870) 
+2023-04-23 23:05:57,713 - INFO - server - ('127.0.0.1', 35870) : {'action': 'presence', 'time': 1682280357.7136574, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:05:57,713 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:05:57,713 - INFO - server - message sent 
+2023-04-23 23:05:57,714 - INFO - server - client finished 
+2023-04-23 23:07:17,464 - INFO - server - connecting from ('127.0.0.1', 60482) 
+2023-04-23 23:07:17,464 - INFO - server - ('127.0.0.1', 60482) : {'action': 'presence', 'time': 1682280437.4643772, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}} 
+2023-04-23 23:07:17,464 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-04-23 23:07:17,464 - INFO - server - message sent 
+2023-04-23 23:07:17,464 - INFO - server - client finished 
+2023-04-23 23:13:58,876 - INFO - server - called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44466)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,876 -  called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44466)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,876 - INFO - server - called function -processing_message- with args -({'action': 'presence', 'time': 1682280838.876798, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,876 -  called function -processing_message- with args -({'action': 'presence', 'time': 1682280838.876798, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,877 - INFO - server - called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44466)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,877 -  called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44466)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 - INFO - server - called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58754)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 -  called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58754)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 - INFO - server - called function -processing_message- with args -({'action': 'presence', 'time': 1682280899.962638, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 -  called function -processing_message- with args -({'action': 'presence', 'time': 1682280899.962638, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 - INFO - server - called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58754)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 -  called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58754)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,178 - INFO - server - called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39064)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,178 -  called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39064)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,182 - INFO - server - called function -processing_message- with args -({'action': 'presence', 'time': 1682280933.1785848, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,182 -  called function -processing_message- with args -({'action': 'presence', 'time': 1682280933.1785848, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,182 - INFO - server - called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39064)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,182 -  called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39064)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 - INFO - server - called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49688)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 -  called function -get_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49688)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 - INFO - server - called function -processing_message- with args -({'action': 'presence', 'time': 1682281026.446521, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 -  called function -processing_message- with args -({'action': 'presence', 'time': 1682281026.446521, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}},)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 - INFO - server - called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49688)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 -  called function -send_message- with args -(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49688)>, {'response': 200, 'alert': 'OK'})-, kwargs -{}- from function -main- 
