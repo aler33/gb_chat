@@ -1,0 +1,441 @@
+2023-04-19 22:02:24,925 - INFO - client - start program 
+2023-04-19 22:02:24,931 - INFO - client - processing_answer_OK 
+2023-04-19 22:10:11,589 - INFO - client - start program 
+2023-04-19 22:10:11,594 - INFO - client - message send 
+2023-04-19 22:10:11,594 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 55110), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:10:11,594 - INFO - client - processing answer OK 
+2023-04-19 22:15:49,963 - INFO - client - start program 
+2023-04-19 22:15:49,968 - INFO - client - message presence complete 
+2023-04-19 22:15:49,969 - INFO - client - message send 
+2023-04-19 22:15:49,969 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 56668), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:15:49,969 - INFO - client - processing answer OK 
+2023-04-19 22:17:14,331 - INFO - client - start program 
+2023-04-19 22:17:14,336 - INFO - client - message presence complete 
+2023-04-19 22:17:14,336 - INFO - client - message send 
+2023-04-19 22:17:14,337 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 35390), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:17:14,337 - INFO - client - processing answer OK 200 OK 
+2023-04-19 22:17:40,772 - INFO - client - start program 
+2023-04-19 22:17:40,778 - INFO - client - message presence complete 
+2023-04-19 22:17:40,778 - INFO - client - message send 
+2023-04-19 22:17:40,778 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 51134), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:17:40,778 - INFO - client - processing answer 200 OK 
+2023-04-19 22:18:36,395 - INFO - client - start program 
+2023-04-19 22:19:32,544 - INFO - client - start program 
+2023-04-19 22:20:25,753 - INFO - client - start program 
+2023-04-19 22:20:25,758 - ERROR - client - Error  Connection refused 
+2023-04-19 22:23:21,937 - INFO - client - start program 
+2023-04-19 22:23:21,942 - INFO - client - message presence complete 
+2023-04-19 22:23:21,942 - INFO - client - message send to <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 46838), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:23:21,942 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 46838), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:23:21,942 - INFO - client - processing answer 200 OK 
+2023-04-19 22:23:45,114 - INFO - client - start program 
+2023-04-19 22:23:45,119 - INFO - client - message presence complete 
+2023-04-19 22:23:45,119 - INFO - client - message send 
+2023-04-19 22:23:45,120 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 35766), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:23:45,120 - INFO - client - processing answer 200 OK 
+2023-04-19 22:25:25,074 - INFO - client - start program 
+2023-04-19 22:25:25,079 - INFO - client - message presence complete 
+2023-04-19 22:25:25,079 - INFO - client - message send 
+2023-04-19 22:25:25,080 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 54276), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:25:25,080 - INFO - client - processing answer 200 OK 
+2023-04-19 22:25:25,080 - INFO - client - program finished 
+2023-04-19 22:52:21,172 - INFO - client - start program 
+2023-04-19 22:52:21,177 - INFO - client - message presence complete 
+2023-04-19 22:52:21,178 - INFO - client - message send 
+2023-04-19 22:52:21,181 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 44962), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:52:21,181 - INFO - client - processing answer 200 OK 
+2023-04-19 22:52:21,181 - INFO - client - program finished 
+2023-04-19 22:58:18,985 - INFO - client - start program 
+2023-04-19 22:58:18,990 - INFO - client - message presence complete 
+2023-04-19 22:58:18,990 - INFO - client - message sent 
+2023-04-19 22:58:18,991 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 60430), raddr=('127.0.0.1', 7777)> 
+2023-04-19 22:58:18,991 - INFO - client - processing answer 200 OK 
+2023-04-19 22:58:18,991 - INFO - client - program finished 
+2023-04-19 23:01:44,508 - INFO - client - start program 
+2023-04-19 23:01:44,513 - INFO - client - message presence complete 
+2023-04-19 23:01:44,513 - INFO - client - message sent 
+2023-04-19 23:01:44,514 - ERROR - client - Error 
+2023-04-19 23:01:44,514 - INFO - client - program finished 
+2023-04-19 23:02:18,223 - INFO - client - start program 
+2023-04-19 23:02:18,228 - INFO - client - message presence complete 
+2023-04-19 23:02:18,228 - INFO - client - message sent 
+2023-04-19 23:02:18,229 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 58196), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:02:18,229 - INFO - client - processing answer 404 Not Found 
+2023-04-19 23:02:18,229 - INFO - client - program finished 
+2023-04-19 23:05:23,561 - INFO - client - start program 
+2023-04-19 23:05:23,566 - INFO - client - message presence complete 
+2023-04-19 23:05:23,567 - INFO - client - message sent 
+2023-04-19 23:05:23,567 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 39190), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:05:23,567 - INFO - client - processing answer 404 Not Found 
+2023-04-19 23:05:23,567 - INFO - client - program finished 
+2023-04-19 23:05:40,796 - INFO - client - start program 
+2023-04-19 23:05:40,801 - INFO - client - message presence complete 
+2023-04-19 23:05:40,801 - INFO - client - message sent 
+2023-04-19 23:05:40,802 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 40168), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:05:40,802 - INFO - client - processing answer 200 OK 
+2023-04-19 23:05:40,802 - INFO - client - program finished 
+2023-04-19 23:05:46,115 - INFO - client - start program 
+2023-04-19 23:05:46,120 - INFO - client - message presence complete 
+2023-04-19 23:05:46,120 - INFO - client - message sent 
+2023-04-19 23:05:46,120 - ERROR - client - Error 
+2023-04-19 23:05:46,121 - INFO - client - program finished 
+2023-04-19 23:11:13,703 - INFO - client - start program 
+2023-04-19 23:11:13,708 - INFO - client - message presence complete 
+2023-04-19 23:11:13,709 - INFO - client - message sent 
+2023-04-19 23:11:13,709 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 43810), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:11:13,709 - INFO - client - processing answer 400 Bad Request 
+2023-04-19 23:11:13,710 - INFO - client - program finished 
+2023-04-19 23:11:45,577 - INFO - client - start program 
+2023-04-19 23:11:45,584 - INFO - client - message presence complete 
+2023-04-19 23:11:45,584 - INFO - client - message sent 
+2023-04-19 23:11:45,584 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 39672), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:11:45,584 - INFO - client - processing answer 200 OK 
+2023-04-19 23:11:45,584 - INFO - client - program finished 
+2023-04-19 23:12:00,484 - INFO - client - start program 
+2023-04-19 23:12:00,489 - INFO - client - message presence complete 
+2023-04-19 23:12:00,490 - INFO - client - message sent 
+2023-04-19 23:12:00,490 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 41790), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:12:00,490 - INFO - client - processing answer 404 Not Found 
+2023-04-19 23:12:00,490 - INFO - client - program finished 
+2023-04-19 23:14:34,244 - INFO - client - start program 
+2023-04-19 23:14:34,249 - INFO - client - message presence complete 
+2023-04-19 23:14:34,250 - INFO - client - message sent 
+2023-04-19 23:14:34,250 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 55500), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:14:34,250 - INFO - client - processing answer 404 Not Found 
+2023-04-19 23:14:34,250 - INFO - client - program finished 
+2023-04-19 23:15:11,431 - INFO - client - start program 
+2023-04-19 23:15:11,438 - INFO - client - message presence complete 
+2023-04-19 23:15:11,438 - INFO - client - message sent 
+2023-04-19 23:15:11,438 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 41610), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:15:11,438 - INFO - client - processing answer 200 OK 
+2023-04-19 23:15:11,438 - INFO - client - program finished 
+2023-04-19 23:16:54,719 - INFO - client - start program 
+2023-04-19 23:16:54,723 - INFO - client - message presence complete 
+2023-04-19 23:16:54,723 - INFO - client - message sent 
+2023-04-19 23:16:54,723 - INFO - client - get message from <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54248), raddr=('127.0.0.1', 7777)> 
+2023-04-19 23:16:54,724 - INFO - client - processing answer 200 OK 
+2023-04-19 23:16:54,724 - INFO - client - program finished 
+2023-04-23 21:41:41,433 - INFO - client - start program 
+2023-04-23 21:41:41,450 - ERROR - client - Error  Connection refused 
+2023-04-23 21:41:41,450 - INFO - client - program finished 
+2023-04-23 21:43:01,812 - INFO - client - start program 
+2023-04-23 21:43:01,817 - ERROR - client - Error  Connection refused 
+2023-04-23 21:43:01,817 - INFO - client - program finished 
+2023-04-23 21:43:33,169 - INFO - client - start program 
+2023-04-23 21:43:33,174 - ERROR - client - Error  Connection refused 
+2023-04-23 21:43:33,174 - INFO - client - program finished 
+2023-04-23 21:45:42,852 - INFO - client - start program 
+2023-04-23 21:45:42,857 - ERROR - client - Error  Connection refused 
+2023-04-23 21:45:42,857 - INFO - client - program finished 
+2023-04-23 21:45:58,187 - INFO - client - start program 
+2023-04-23 21:45:58,193 - ERROR - client - Error  Connection refused 
+2023-04-23 21:45:58,193 - INFO - client - program finished 
+2023-04-23 21:46:37,487 - INFO - client - start program 
+2023-04-23 21:46:37,494 - ERROR - client - Error  Connection refused 
+2023-04-23 21:46:37,494 - INFO - client - program finished 
+2023-04-23 21:46:56,749 - INFO - client - start program 
+2023-04-23 21:46:56,754 - ERROR - client - Error  Connection refused 
+2023-04-23 21:46:56,754 - INFO - client - program finished 
+2023-04-23 21:49:34,203 - INFO - client - start program 
+2023-04-23 21:49:34,209 - ERROR - client - Error  Connection refused 
+2023-04-23 21:49:34,209 - INFO - client - program finished 
+2023-04-23 21:52:47,815 - INFO - client - start program 
+2023-04-23 21:52:47,820 - ERROR - client - Error  Connection refused 
+2023-04-23 21:52:47,820 - INFO - client - program finished 
+2023-04-23 21:53:19,659 - INFO - client - start program 
+2023-04-23 21:53:19,664 - ERROR - client - Error  Connection refused 
+2023-04-23 21:53:19,664 - INFO - client - program finished 
+2023-04-23 21:53:20,919 - INFO - client - start program 
+2023-04-23 21:53:20,924 - ERROR - client - Error  Connection refused 
+2023-04-23 21:53:20,924 - INFO - client - program finished 
+2023-04-23 21:53:40,944 - INFO - client - start program 
+2023-04-23 21:53:40,949 - ERROR - client - Error  Connection refused 
+2023-04-23 21:53:40,949 - INFO - client - program finished 
+2023-04-23 21:53:54,408 - INFO - client - start program 
+2023-04-23 21:53:54,414 - ERROR - client - Error  Connection refused 
+2023-04-23 21:53:54,414 - INFO - client - program finished 
+2023-04-23 21:54:08,065 - INFO - client - start program 
+2023-04-23 21:54:08,071 - ERROR - client - Error  Connection refused 
+2023-04-23 21:54:08,071 - INFO - client - program finished 
+2023-04-23 21:55:27,563 - INFO - client - start program 
+2023-04-23 21:55:27,568 - ERROR - client - Error  Connection refused 
+2023-04-23 21:55:27,568 - INFO - client - program finished 
+2023-04-23 21:55:58,178 - INFO - client - start program 
+2023-04-23 21:55:58,184 - ERROR - client - Error  Connection refused 
+2023-04-23 21:55:58,184 - INFO - client - program finished 
+2023-04-23 21:56:35,520 - INFO - client - start program 
+2023-04-23 21:56:35,525 - ERROR - client - Error  Connection refused 
+2023-04-23 21:56:35,526 - INFO - client - program finished 
+2023-04-23 21:59:03,469 - INFO - client - start program 
+2023-04-23 21:59:03,474 - ERROR - client - Error  Connection refused 
+2023-04-23 21:59:03,474 - INFO - client - program finished 
+2023-04-23 22:03:07,673 - INFO - client - start program 
+2023-04-23 22:03:07,679 - ERROR - client - Error  Connection refused 
+2023-04-23 22:03:07,679 - INFO - client - program finished 
+2023-04-23 22:05:09,478 - INFO - client - start program 
+2023-04-23 22:05:09,484 - ERROR - client - Error  Connection refused 
+2023-04-23 22:05:09,484 - INFO - client - program finished 
+2023-04-23 22:06:05,045 - INFO - client - start program 
+2023-04-23 22:06:05,050 - ERROR - client - Error  Connection refused 
+2023-04-23 22:06:05,050 - INFO - client - program finished 
+2023-04-23 22:06:46,878 - INFO - client - start program 
+2023-04-23 22:06:46,884 - ERROR - client - Error  Connection refused 
+2023-04-23 22:06:46,884 - INFO - client - program finished 
+2023-04-23 22:08:59,445 - INFO - client - start program 
+2023-04-23 22:08:59,451 - ERROR - client - Error  Connection refused 
+2023-04-23 22:08:59,451 - INFO - client - program finished 
+2023-04-23 22:09:52,056 - INFO - client - start program 
+2023-04-23 22:09:52,061 - ERROR - client - Error  Connection refused 
+2023-04-23 22:09:52,061 - INFO - client - program finished 
+2023-04-23 22:10:44,828 - INFO - client - start program 
+2023-04-23 22:10:44,833 - ERROR - client - Error  Connection refused 
+2023-04-23 22:10:44,834 - INFO - client - program finished 
+2023-04-23 22:11:42,205 - INFO - client - start program 
+2023-04-23 22:11:42,210 - ERROR - client - Error  Connection refused 
+2023-04-23 22:11:42,211 - INFO - client - program finished 
+2023-04-23 22:15:03,565 - INFO - client - start program 
+2023-04-23 22:15:03,571 - ERROR - client - Error  Connection refused 
+2023-04-23 22:15:03,571 - INFO - client - program finished 
+2023-04-23 22:15:14,993 - INFO - client - start program 
+2023-04-23 22:15:14,999 - ERROR - client - Error  Connection refused 
+2023-04-23 22:15:14,999 - INFO - client - program finished 
+2023-04-23 22:15:43,678 - INFO - client - start program 
+2023-04-23 22:15:43,683 - ERROR - client - Error  Connection refused 
+2023-04-23 22:15:43,683 - INFO - client - program finished 
+2023-04-23 22:16:22,315 - INFO - client - start program 
+2023-04-23 22:16:22,320 - ERROR - client - Error  Connection refused 
+2023-04-23 22:16:22,321 - INFO - client - program finished 
+2023-04-23 22:16:58,124 - INFO - client - start program 
+2023-04-23 22:16:58,130 - ERROR - client - Error  Connection refused 
+2023-04-23 22:16:58,130 - INFO - client - program finished 
+2023-04-23 22:21:51,162 - INFO - client - start program 
+2023-04-23 22:21:51,167 - INFO - client - message presence complete 
+2023-04-23 22:21:51,167 - ERROR - client - Error 
+2023-04-23 22:21:51,167 - INFO - client - program finished 
+2023-04-23 22:31:23,853 - INFO - client - start program 
+2023-04-23 22:31:23,858 - INFO - client - message presence complete 
+2023-04-23 22:31:23,858 - ERROR - client - Error 
+2023-04-23 22:31:23,858 - INFO - client - program finished 
+2023-04-23 22:32:36,623 - INFO - client - start program 
+2023-04-23 22:32:36,628 - INFO - client - message presence complete 
+2023-04-23 22:32:36,628 - ERROR - client - Error 
+2023-04-23 22:32:36,628 - INFO - client - program finished 
+2023-04-23 22:33:06,909 - INFO - client - start program 
+2023-04-23 22:33:06,915 - INFO - client - message presence complete 
+2023-04-23 22:33:06,915 - ERROR - client - Error 
+2023-04-23 22:33:06,915 - INFO - client - program finished 
+2023-04-23 22:33:21,477 - INFO - client - start program 
+2023-04-23 22:33:21,483 - INFO - client - message presence complete 
+2023-04-23 22:33:21,483 - ERROR - client - Error 
+2023-04-23 22:33:21,483 - INFO - client - program finished 
+2023-04-23 22:33:52,727 - INFO - client - start program 
+2023-04-23 22:33:52,733 - INFO - client - message presence complete 
+2023-04-23 22:33:52,733 - ERROR - client - Error 
+2023-04-23 22:33:52,733 - INFO - client - program finished 
+2023-04-23 22:34:52,984 - INFO - client - start program 
+2023-04-23 22:34:52,989 - INFO - client - message presence complete 
+2023-04-23 22:34:52,989 - ERROR - client - Error 
+2023-04-23 22:34:52,989 - INFO - client - program finished 
+2023-04-23 22:36:19,471 - INFO - client - start program 
+2023-04-23 22:36:19,476 - INFO - client - message presence complete 
+2023-04-23 22:36:19,476 - ERROR - client - Error 
+2023-04-23 22:36:19,476 - INFO - client - program finished 
+2023-04-23 22:37:26,462 - INFO - client - start program 
+2023-04-23 22:37:26,469 - INFO - client - message presence complete 
+2023-04-23 22:37:26,469 - ERROR - client - Error 
+2023-04-23 22:37:26,469 - INFO - client - program finished 
+2023-04-23 22:40:19,865 - INFO - client - start program 
+2023-04-23 22:40:19,873 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 50850), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:40:19,873 - INFO - client - message presence complete 
+2023-04-23 22:40:19,873 - ERROR - client - Error 
+2023-04-23 22:40:19,873 - INFO - client - program finished 
+2023-04-23 22:41:03,302 - INFO - client - start program 
+2023-04-23 22:41:03,307 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 45258), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:41:03,307 - INFO - client - message presence complete 
+2023-04-23 22:41:03,307 - ERROR - client - Error 
+2023-04-23 22:41:03,307 - INFO - client - program finished 
+2023-04-23 22:42:01,677 - INFO - client - start program 
+2023-04-23 22:42:01,682 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 36620), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:42:01,682 - INFO - client - message presence complete 
+2023-04-23 22:42:16,710 - INFO - client - start program 
+2023-04-23 22:42:16,715 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 57176), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:42:16,715 - INFO - client - message presence complete 
+2023-04-23 22:42:16,716 - INFO - client - message sent 
+2023-04-23 22:42:16,716 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 57176), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:42:16,716 - INFO - client - processing answer 200 OK 
+2023-04-23 22:42:16,716 - INFO - client - program finished 
+2023-04-23 22:42:27,795 - INFO - client - start program 
+2023-04-23 22:42:27,800 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 42256), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:42:27,800 - INFO - client - message presence complete 
+2023-04-23 22:42:27,800 - INFO - client - message sent 
+2023-04-23 22:42:27,801 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 42256), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:42:27,801 - INFO - client - processing answer 200 OK 
+2023-04-23 22:42:27,801 - INFO - client - program finished 
+2023-04-23 22:43:09,601 - INFO - client - start program 
+2023-04-23 22:43:09,607 - INFO - client - <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 38676), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:43:09,607 - INFO - client - message presence complete 
+2023-04-23 22:43:09,607 - INFO - client - message sent 
+2023-04-23 22:43:09,607 - INFO - client - get message from <socket.socket fd=4, family=2, type=1, proto=0, laddr=('127.0.0.1', 38676), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:43:09,608 - INFO - client - processing answer 200 OK 
+2023-04-23 22:43:09,608 - INFO - client - program finished 
+2023-04-23 22:52:30,615 - INFO - client - start program 
+2023-04-23 22:52:30,620 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 36898), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:52:30,620 -  called function processing_presence 
+2023-04-23 22:52:30,620 - INFO - client - message presence complete 
+2023-04-23 22:52:30,621 - INFO - client - message sent 
+2023-04-23 22:52:30,621 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 36898), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:52:30,621 - INFO - client - processing answer 200 OK 
+2023-04-23 22:52:30,621 - INFO - client - program finished 
+2023-04-23 22:53:09,546 - INFO - client - start program 
+2023-04-23 22:53:09,553 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58278), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:53:09,553 -  called function - processing_presence - 
+2023-04-23 22:53:09,553 - INFO - client - message presence complete 
+2023-04-23 22:53:09,553 - INFO - client - message sent 
+2023-04-23 22:53:09,553 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58278), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:53:09,553 - INFO - client - processing answer 200 OK 
+2023-04-23 22:53:09,554 - INFO - client - program finished 
+2023-04-23 22:53:32,038 - INFO - client - start program 
+2023-04-23 22:53:32,043 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 36494), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:53:32,043 -  called function -processing_presence- 
+2023-04-23 22:53:32,043 - INFO - client - message presence complete 
+2023-04-23 22:53:32,043 - INFO - client - message sent 
+2023-04-23 22:53:32,044 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 36494), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:53:32,044 - INFO - client - processing answer 200 OK 
+2023-04-23 22:53:32,044 - INFO - client - program finished 
+2023-04-23 22:54:50,600 - INFO - client - start program 
+2023-04-23 22:54:50,605 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 53326), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:54:50,605 -  called function -processing_presence- 
+2023-04-23 22:54:50,605 - INFO - client - message presence complete 
+2023-04-23 22:54:50,605 - INFO - client - message sent 
+2023-04-23 22:54:50,606 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 53326), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:54:50,606 - INFO - client - processing answer 200 OK 
+2023-04-23 22:54:50,606 - INFO - client - program finished 
+2023-04-23 22:55:20,648 - INFO - client - start program 
+2023-04-23 22:55:20,653 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 37862), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:55:20,653 -  called function -processing_presence- 
+2023-04-23 22:55:20,653 - INFO - client - message presence complete 
+2023-04-23 22:55:20,653 - INFO - client - message sent 
+2023-04-23 22:55:20,653 -  called function -get_message- 
+2023-04-23 22:55:20,654 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 37862), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:55:20,654 - INFO - client - processing answer 200 OK 
+2023-04-23 22:55:20,654 - INFO - client - program finished 
+2023-04-23 22:56:40,304 - INFO - client - start program 
+2023-04-23 22:56:40,310 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 38868), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:56:40,310 -  called function -processing_presence- with args -()-, kwargs -{}- 
+2023-04-23 22:56:40,310 - INFO - client - message presence complete 
+2023-04-23 22:56:40,310 - INFO - client - message sent 
+2023-04-23 22:56:40,310 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 38868), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- 
+2023-04-23 22:56:40,310 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 38868), raddr=('127.0.0.1', 7777)> 
+2023-04-23 22:56:40,310 - INFO - client - processing answer 200 OK 
+2023-04-23 22:56:40,310 - INFO - client - program finished 
+2023-04-23 23:00:44,872 - INFO - client - start program 
+2023-04-23 23:00:44,878 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50994), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:00:44,878 -  called function -processing_presence- with args -()-, kwargs -{}- 
+2023-04-23 23:00:44,878 - INFO - client - message presence complete 
+2023-04-23 23:00:44,878 - INFO - client - message sent 
+2023-04-23 23:00:44,878 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50994), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- 
+2023-04-23 23:00:44,878 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50994), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:00:44,879 - INFO - client - processing answer 200 OK 
+2023-04-23 23:00:44,879 - INFO - client - program finished 
+2023-04-23 23:01:29,516 - INFO - client - start program 
+2023-04-23 23:01:29,522 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 33696), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:01:29,523 -  called function -processing_presence- with args -()-, kwargs -{}- 
+2023-04-23 23:01:29,523 - INFO - client - message presence complete 
+2023-04-23 23:01:29,523 - INFO - client - message sent 
+2023-04-23 23:01:29,523 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 33696), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- 
+2023-04-23 23:01:29,523 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 33696), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:01:29,523 - INFO - client - processing answer 200 OK 
+2023-04-23 23:01:29,523 - INFO - client - program finished 
+2023-04-23 23:02:30,767 - INFO - client - start program 
+2023-04-23 23:02:30,773 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47644), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:02:30,773 -  called function -processing_presence- with args -()-, kwargs -{}- 
+2023-04-23 23:02:30,774 - INFO - client - message presence complete 
+2023-04-23 23:02:30,774 - INFO - client - message sent 
+2023-04-23 23:02:30,774 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47644), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- 
+2023-04-23 23:02:30,774 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47644), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:02:30,774 - INFO - client - processing answer 200 OK 
+2023-04-23 23:02:30,774 - INFO - client - program finished 
+2023-04-23 23:02:47,870 - INFO - client - start program 
+2023-04-23 23:02:47,877 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50574), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:02:47,877 -  called function -processing_presence- with args -()-, kwargs -{}- 
+2023-04-23 23:02:47,877 - INFO - client - message presence complete 
+2023-04-23 23:02:47,877 - INFO - client - message sent 
+2023-04-23 23:02:47,877 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50574), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- 
+2023-04-23 23:02:47,877 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 50574), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:02:47,877 - INFO - client - processing answer 200 OK 
+2023-04-23 23:02:47,878 - INFO - client - program finished 
+2023-04-23 23:04:18,967 - INFO - client - start program 
+2023-04-23 23:04:18,973 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47322), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:04:18,973 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:04:18,973 - INFO - client - message presence complete 
+2023-04-23 23:04:18,974 - INFO - client - message sent 
+2023-04-23 23:04:18,974 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47322), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:04:18,974 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 47322), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:04:18,974 - INFO - client - processing answer 200 OK 
+2023-04-23 23:04:18,974 - INFO - client - program finished 
+2023-04-23 23:05:57,707 - INFO - client - start program 
+2023-04-23 23:05:57,713 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 35870), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:05:57,713 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:05:57,713 - INFO - client - message presence complete 
+2023-04-23 23:05:57,713 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 35870), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682280357.7136574, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:05:57,714 - INFO - client - message sent 
+2023-04-23 23:05:57,714 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 35870), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:05:57,714 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 35870), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:05:57,714 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:05:57,714 - INFO - client - processing answer 200 OK 
+2023-04-23 23:05:57,714 - INFO - client - program finished 
+2023-04-23 23:07:17,458 - INFO - client - start program 
+2023-04-23 23:07:17,464 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 60482), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:07:17,464 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:07:17,464 - INFO - client - message presence complete 
+2023-04-23 23:07:17,464 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 60482), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682280437.4643772, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:07:17,464 - INFO - client - message sent 
+2023-04-23 23:07:17,464 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 60482), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:07:17,464 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 60482), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:07:17,464 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:07:17,464 - INFO - client - processing answer 200 OK 
+2023-04-23 23:07:17,464 - INFO - client - program finished 
+2023-04-23 23:13:58,870 - INFO - client - start program 
+2023-04-23 23:13:58,876 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 44466), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:13:58,876 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,876 - INFO - client - message presence complete 
+2023-04-23 23:13:58,876 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 44466), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682280838.876798, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,876 - INFO - client - message sent 
+2023-04-23 23:13:58,876 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 44466), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,877 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 44466), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:13:58,877 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:13:58,877 - INFO - client - processing answer 200 OK 
+2023-04-23 23:13:58,877 - INFO - client - program finished 
+2023-04-23 23:14:59,956 - INFO - client - start program 
+2023-04-23 23:14:59,962 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58754), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:14:59,962 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 - INFO - client - message presence complete 
+2023-04-23 23:14:59,962 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58754), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682280899.962638, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,962 - INFO - client - message sent 
+2023-04-23 23:14:59,962 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58754), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,963 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 58754), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:14:59,963 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:14:59,963 - INFO - client - processing answer 200 OK 
+2023-04-23 23:14:59,963 - INFO - client - program finished 
+2023-04-23 23:15:33,167 - INFO - client - start program 
+2023-04-23 23:15:33,178 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 39064), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:15:33,178 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,178 - INFO - client - message presence complete 
+2023-04-23 23:15:33,178 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 39064), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682280933.1785848, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,179 - INFO - client - message sent 
+2023-04-23 23:15:33,180 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 39064), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,183 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 39064), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:15:33,183 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:15:33,183 - INFO - client - processing answer 200 OK 
+2023-04-23 23:15:33,183 - INFO - client - program finished 
+2023-04-23 23:17:06,439 - INFO - client - start program 
+2023-04-23 23:17:06,446 - INFO - client - <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 49688), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:17:06,446 -  called function -processing_presence- with args -()-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 - INFO - client - message presence complete 
+2023-04-23 23:17:06,446 -  called function -send_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 49688), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1682281026.446521, 'type': 'status', 'user': {'account_name': 'user0', 'status': 'I am here!'}})-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,446 - INFO - client - message sent 
+2023-04-23 23:17:06,446 -  called function -get_message- with args -(<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 49688), raddr=('127.0.0.1', 7777)>,)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,447 - INFO - client - get message from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 49688), raddr=('127.0.0.1', 7777)> 
+2023-04-23 23:17:06,447 -  called function -processing_answer- with args -({'response': 200, 'alert': 'OK'},)-, kwargs -{}- from function -main- 
+2023-04-23 23:17:06,447 - INFO - client - processing answer 200 OK 
+2023-04-23 23:17:06,447 - INFO - client - program finished 
