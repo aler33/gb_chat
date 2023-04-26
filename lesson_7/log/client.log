@@ -1,0 +1,8 @@
+2023-04-27 02:42:29,120 - INFO - client_1 - start program 
+2023-04-27 02:42:34,542 - INFO - client_1 - start program 
+2023-04-27 02:42:43,892 - INFO - cl_send - etrh sent to <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41816), raddr=('127.0.0.1', 7777)> 
+2023-04-27 02:42:44,061 - INFO - cl_read - receive from server etrh 
+2023-04-27 02:46:49,942 - INFO - client - start program 
+2023-04-27 02:46:54,916 - INFO - cl_send - wregbf sent to <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40912), raddr=('127.0.0.1', 7777)> 
+2023-04-27 02:49:17,807 - INFO - cl_send - wedsafsdgf sent to <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40912), raddr=('127.0.0.1', 7777)> 
+2023-04-27 02:51:35,934 - INFO - cl_read - receive from server wregbfwedsafsdgf 
