@@ -6,6 +6,7 @@ from threading import Thread
 import log.client_log_config
 import logging
 import dis
+from client_db import add_users
 
 
 client_log = logging.getLogger('client')
@@ -49,6 +50,11 @@ def processing_presence(username):
 
 def send_message(s, message):
     message_json = json.dumps(message).encode('utf-8')
+    try:
+        if message['action'] == 'message':
+            add_users(message['destination'], message['text'])
+    except Exception:
+        pass
     s.send(message_json)
     client_log.info('message sent')
 
@@ -72,6 +78,11 @@ def processing_answer(message_raw):
 def get_message(client):
     message_in = client.recv(1024)
     message_raw = json.loads(message_in.decode('utf-8'))
+    try:
+        if message_raw['action'] == 'message':
+            add_users(message_raw['user']['account_name'], message_raw['text'])
+    except Exception:
+        pass
     client_log.info(f'get message from {client}')
 
     return message_raw
@@ -86,6 +97,9 @@ class Read(Thread, metaclass=ClientVerifier):
         while True:
             try:
                 data = get_message(self.client)
+                print(data)
+                if data['response'] == 202:
+                    print(f'Contact list: {data["alert"]}')
                 # data = json.loads(self.client.recv(1024).decode('utf-8'))
                 # client_log.info(f'receive from server {data}')
                 print(f"Message from {data['user']['account_name']} - {data['text']}")
@@ -100,27 +114,63 @@ class Send(Thread, metaclass=ClientVerifier):
         super().__init__()
 
     def run(self):
-        to_name = input('Enter destination name')
-        print('Enter your message, "q" for quit :')
         while True:
+            # to_name = input('Enter destination name')
+            print('Enter your message, "q" for quit, "a" - for add contact, "c" - view contacts ,"d" - delete contact:')
             txt = input()
             if txt == 'q':
                 return
-            message = {
-                'action': 'message',
-                'time': time(),
-                'type': 'message',
-                'destination': to_name,
-                'text': txt,
-                'user': {
-                    'account_name': self.username,
-                    'status': 'I am here!'
+            elif txt == 'a':
+                contact = input('Enter contact: ')
+                message = {
+                    'action': 'add_contact',
+                    'time': time(),
+                    'user_login': contact,
+                    'user': {
+                        'account_name': self.username,
+                }
             }
-        }
-            # message_json = json.dumps(message).encode('utf-8')
-            # self.client.send(message_json)
-            send_message(self.client, message)
-            client_log.info(f'{message} sent to {self.client}')
+                send_message(self.client, message)
+                client_log.info(f'{message} sent to {self.client}')
+            elif txt == 'c':
+                message = {
+                    'action': 'get_contacts',
+                    'time': time(),
+                    'user': {
+                        'account_name': self.username,
+                }
+            }
+                send_message(self.client, message)
+                client_log.info(f'{message} sent to {self.client}')
+            elif txt == 'd':
+                contact = input('Enter contact: ')
+                message = {
+                    'action': 'del_contact',
+                    'time': time(),
+                    'user_login': contact,
+                    'user': {
+                        'account_name': self.username,
+                    }
+                }
+                send_message(self.client, message)
+                client_log.info(f'{message} sent to {self.client}')
+            else:
+                to_name = input('Enter destination name')
+                message = {
+                    'action': 'message',
+                    'time': time(),
+                    'type': 'message',
+                    'destination': to_name,
+                    'text': txt,
+                    'user': {
+                        'account_name': self.username,
+                        'status': 'I am here!'
+                }
+            }
+                # message_json = json.dumps(message).encode('utf-8')
+                # self.client.send(message_json)
+                send_message(self.client, message)
+                client_log.info(f'{message} sent to {self.client}')
 
 
 def main():

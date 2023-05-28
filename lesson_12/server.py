@@ -5,7 +5,7 @@ import argparse
 import logging
 import log.server_log_config
 import dis
-from server_db import add_users
+from server_db import add_users, add_contact, get_contact, del_contact
 
 
 server_log = logging.getLogger('server_1')
@@ -105,6 +105,7 @@ class Server(metaclass=ServerVerifier):
             try:
                 data = json.loads(sock.recv(1024).decode('utf-8'))
                 responses[sock] = data
+                print(data)
                 server_log.info(f'from {sock} receiving {data}')
 
                 # OLD CODE
@@ -114,17 +115,52 @@ class Server(metaclass=ServerVerifier):
                         "alert": "OK"
                     }
 
-                    print(f"{data['user']['account_name']} - {clients}")
-                    add_users(data['user']['account_name'], clients)
+                    client_ip, client_port = sock.getpeername()
+                    print(f"{data['user']['account_name']} - {client_ip}")
+                    add_users(data['user']['account_name'], client_ip)
 
                     server_log.info(f'response {response}')
                     self.send_message(sock, response)
                     return messages
 
+                elif 'action' in data and data['action'] == 'add_contact':
+                    print("ADDING CONTACT")
+                    add_contact(data['user']['account_name'], data['user_login'])
+                    response = {
+                        "response": 201,
+                        "alert": "OK"
+                    }
+                    server_log.info(f'response {response}')
+                    self.send_message(sock, response)
+                    return messages
+
+                elif 'action' in data and data['action'] == 'del_contact':
+                    print("DELETING CONTACT")
+                    del_contact(data['user']['account_name'], data['user_login'])
+                    response = {
+                        "response": 201,
+                        "alert": "OK"
+                    }
+                    server_log.info(f'response {response}')
+                    self.send_message(sock, response)
+                    return messages
+
                 elif 'action' in data and data['action'] == 'message':
+                    if data['destination']:
+                        add_contact(data['user']['account_name'], data['destination'])
                     self.messages.append(data)
 
-
+                elif 'action' in data and data['action'] == 'get_contacts':
+                    print('000000111111100000')
+                    contacts_list = get_contact(data['user']['account_name'])
+                    print(contacts_list)
+                    response = {
+                        "response": 202,
+                        "alert": contacts_list
+                    }
+                    server_log.info(f'response {response}')
+                    self.send_message(sock, response)
+                    return messages
 
                 # NEW CODE
                 return messages

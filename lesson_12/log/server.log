@@ -379,3 +379,1203 @@
 2023-05-25 03:32:33,963 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39824)> receiving {'action': 'message', 'time': 1684974753.850018, 'type': 'message', 'text': 'rwgfbgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
 2023-05-25 03:32:33,963 - INFO - server - message {'action': 'message', 'time': 1684974753.850018, 'type': 'message', 'text': 'rwgfbgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
 2023-05-25 03:32:33,963 -  message {'action': 'message', 'time': 1684974753.850018, 'type': 'message', 'text': 'rwgfbgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 18:03:52,519 - INFO - server - start program 
+2023-05-28 18:03:52,519 -  start program 
+2023-05-28 18:42:22,050 - INFO - server - start program 
+2023-05-28 18:42:22,050 -  start program 
+2023-05-28 18:42:36,484 - INFO - server - connected from ('127.0.0.1', 41926) 
+2023-05-28 18:42:36,484 -  connected from ('127.0.0.1', 41926) 
+2023-05-28 18:42:36,485 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> receiving {'action': 'presence', 'time': 1685288556.1115065, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:42:36,485 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> receiving {'action': 'presence', 'time': 1685288556.1115065, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:42:36,524 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:42:36,524 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:42:36,526 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> 
+2023-05-28 18:42:36,526 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> 
+2023-05-28 18:42:45,211 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> receiving {'action': 'message', 'time': 1685288565.1129236, 'type': 'message', 'destination': 'all', 'text': 'erhwrsgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:42:45,211 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41926)> receiving {'action': 'message', 'time': 1685288565.1129236, 'type': 'message', 'destination': 'all', 'text': 'erhwrsgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:42:45,211 - INFO - server - message {'action': 'message', 'time': 1685288565.1129236, 'type': 'message', 'destination': 'all', 'text': 'erhwrsgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 18:42:45,211 -  message {'action': 'message', 'time': 1685288565.1129236, 'type': 'message', 'destination': 'all', 'text': 'erhwrsgsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 18:43:21,526 - INFO - server - connected from ('127.0.0.1', 54798) 
+2023-05-28 18:43:21,526 -  connected from ('127.0.0.1', 54798) 
+2023-05-28 18:43:21,527 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> receiving {'action': 'presence', 'time': 1685288600.6801934, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} 
+2023-05-28 18:43:21,527 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> receiving {'action': 'presence', 'time': 1685288600.6801934, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} 
+2023-05-28 18:43:21,562 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:43:21,562 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:43:21,562 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> 
+2023-05-28 18:43:21,562 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> 
+2023-05-28 18:43:26,809 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> receiving {'action': 'message', 'time': 1685288606.739557, 'type': 'message', 'destination': 'all', 'text': 'rwwefad', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} 
+2023-05-28 18:43:26,809 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54798)> receiving {'action': 'message', 'time': 1685288606.739557, 'type': 'message', 'destination': 'all', 'text': 'rwwefad', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} 
+2023-05-28 18:43:26,809 - INFO - server - message {'action': 'message', 'time': 1685288606.739557, 'type': 'message', 'destination': 'all', 'text': 'rwwefad', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} sent 
+2023-05-28 18:43:26,809 -  message {'action': 'message', 'time': 1685288606.739557, 'type': 'message', 'destination': 'all', 'text': 'rwwefad', 'user': {'account_name': 'qwert', 'status': 'I am here!'}} sent 
+2023-05-28 18:53:35,650 - INFO - server - connected from ('127.0.0.1', 52686) 
+2023-05-28 18:53:35,650 -  connected from ('127.0.0.1', 52686) 
+2023-05-28 18:53:35,650 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> receiving {'action': 'presence', 'time': 1685289215.61993, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:53:35,650 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> receiving {'action': 'presence', 'time': 1685289215.61993, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:53:35,654 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:53:35,654 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 18:53:35,654 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> 
+2023-05-28 18:53:35,654 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> 
+2023-05-28 18:53:42,529 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> receiving {'action': 'message', 'time': 1685289222.4927225, 'type': 'message', 'destination': 'all', 'text': 'eadsasc', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:53:42,529 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52686)> receiving {'action': 'message', 'time': 1685289222.4927225, 'type': 'message', 'destination': 'all', 'text': 'eadsasc', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:53:42,530 - INFO - server - message {'action': 'message', 'time': 1685289222.4927225, 'type': 'message', 'destination': 'all', 'text': 'eadsasc', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 18:53:42,530 -  message {'action': 'message', 'time': 1685289222.4927225, 'type': 'message', 'destination': 'all', 'text': 'eadsasc', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 18:54:19,985 - INFO - server - start program 
+2023-05-28 18:54:19,985 -  start program 
+2023-05-28 18:54:38,061 - INFO - server - start program 
+2023-05-28 18:54:38,061 -  start program 
+2023-05-28 18:54:39,681 - INFO - server - start program 
+2023-05-28 18:54:39,681 -  start program 
+2023-05-28 18:54:40,983 - INFO - server - start program 
+2023-05-28 18:54:40,983 -  start program 
+2023-05-28 18:54:42,000 - INFO - server - start program 
+2023-05-28 18:54:42,000 -  start program 
+2023-05-28 18:54:44,858 - INFO - server - start program 
+2023-05-28 18:54:44,858 -  start program 
+2023-05-28 18:54:50,006 - INFO - server - start program 
+2023-05-28 18:54:50,006 -  start program 
+2023-05-28 18:55:11,468 - INFO - server - start program 
+2023-05-28 18:55:11,468 -  start program 
+2023-05-28 18:55:12,974 - INFO - server - start program 
+2023-05-28 18:55:12,974 -  start program 
+2023-05-28 18:55:25,436 - INFO - server - start program 
+2023-05-28 18:55:25,436 -  start program 
+2023-05-28 18:55:28,132 - INFO - server - start program 
+2023-05-28 18:55:28,132 -  start program 
+2023-05-28 18:55:29,523 - INFO - server - start program 
+2023-05-28 18:55:29,523 -  start program 
+2023-05-28 18:55:30,497 - INFO - server - start program 
+2023-05-28 18:55:30,497 -  start program 
+2023-05-28 18:55:31,541 - INFO - server - start program 
+2023-05-28 18:55:31,541 -  start program 
+2023-05-28 18:55:37,121 - INFO - server - start program 
+2023-05-28 18:55:37,121 -  start program 
+2023-05-28 18:55:44,347 - INFO - server - connected from ('127.0.0.1', 60662) 
+2023-05-28 18:55:44,347 -  connected from ('127.0.0.1', 60662) 
+2023-05-28 18:55:44,347 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60662)> receiving {'action': 'presence', 'time': 1685289343.4317477, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:55:44,347 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60662)> receiving {'action': 'presence', 'time': 1685289343.4317477, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:57:49,073 - INFO - server - start program 
+2023-05-28 18:57:49,073 -  start program 
+2023-05-28 18:58:01,095 - INFO - server - connected from ('127.0.0.1', 43302) 
+2023-05-28 18:58:01,095 -  connected from ('127.0.0.1', 43302) 
+2023-05-28 18:58:01,095 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43302)> receiving {'action': 'presence', 'time': 1685289480.1532695, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:58:01,095 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43302)> receiving {'action': 'presence', 'time': 1685289480.1532695, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 18:59:07,658 - INFO - server - start program 
+2023-05-28 18:59:07,658 -  start program 
+2023-05-28 18:59:20,080 - INFO - server - start program 
+2023-05-28 18:59:20,080 -  start program 
+2023-05-28 18:59:21,631 - INFO - server - start program 
+2023-05-28 18:59:21,631 -  start program 
+2023-05-28 19:00:04,491 - INFO - server - start program 
+2023-05-28 19:00:04,491 -  start program 
+2023-05-28 19:00:14,130 - INFO - server - connected from ('127.0.0.1', 50470) 
+2023-05-28 19:00:14,130 -  connected from ('127.0.0.1', 50470) 
+2023-05-28 19:00:14,131 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50470)> receiving {'action': 'presence', 'time': 1685289613.430099, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:00:14,131 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50470)> receiving {'action': 'presence', 'time': 1685289613.430099, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:03:13,085 - INFO - server - start program 
+2023-05-28 19:03:13,085 -  start program 
+2023-05-28 19:03:32,331 - INFO - server - connected from ('127.0.0.1', 53890) 
+2023-05-28 19:03:32,331 -  connected from ('127.0.0.1', 53890) 
+2023-05-28 19:03:32,331 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53890)> receiving {'action': 'presence', 'time': 1685289811.369204, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:03:32,331 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53890)> receiving {'action': 'presence', 'time': 1685289811.369204, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:05:27,458 - INFO - server - start program 
+2023-05-28 19:05:27,458 -  start program 
+2023-05-28 19:05:50,324 - INFO - server - connected from ('127.0.0.1', 51700) 
+2023-05-28 19:05:50,324 -  connected from ('127.0.0.1', 51700) 
+2023-05-28 19:05:50,325 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51700)> receiving {'action': 'presence', 'time': 1685289949.4122431, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:05:50,325 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51700)> receiving {'action': 'presence', 'time': 1685289949.4122431, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:06:56,451 - INFO - server - start program 
+2023-05-28 19:06:56,451 -  start program 
+2023-05-28 19:07:23,798 - INFO - server - start program 
+2023-05-28 19:07:23,798 -  start program 
+2023-05-28 19:07:25,869 - INFO - server - start program 
+2023-05-28 19:07:25,869 -  start program 
+2023-05-28 19:07:30,974 - INFO - server - start program 
+2023-05-28 19:07:30,974 -  start program 
+2023-05-28 19:07:37,015 - INFO - server - connected from ('127.0.0.1', 40548) 
+2023-05-28 19:07:37,015 -  connected from ('127.0.0.1', 40548) 
+2023-05-28 19:07:37,015 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> receiving {'action': 'presence', 'time': 1685290056.943095, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:07:37,015 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> receiving {'action': 'presence', 'time': 1685290056.943095, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:07:37,023 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:07:37,023 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:07:37,023 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> 
+2023-05-28 19:07:37,023 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> 
+2023-05-28 19:07:43,506 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> receiving {'action': 'message', 'time': 1685290063.4146783, 'type': 'message', 'destination': 'all', 'text': '243trweghsw', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:07:43,506 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40548)> receiving {'action': 'message', 'time': 1685290063.4146783, 'type': 'message', 'destination': 'all', 'text': '243trweghsw', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:07:43,506 - INFO - server - message {'action': 'message', 'time': 1685290063.4146783, 'type': 'message', 'destination': 'all', 'text': '243trweghsw', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:07:43,506 -  message {'action': 'message', 'time': 1685290063.4146783, 'type': 'message', 'destination': 'all', 'text': '243trweghsw', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:12:00,652 - INFO - server - start program 
+2023-05-28 19:12:00,652 -  start program 
+2023-05-28 19:12:49,232 - INFO - server - start program 
+2023-05-28 19:12:49,232 -  start program 
+2023-05-28 19:12:51,271 - INFO - server - start program 
+2023-05-28 19:12:51,271 -  start program 
+2023-05-28 19:12:57,265 - INFO - server - start program 
+2023-05-28 19:12:57,265 -  start program 
+2023-05-28 19:13:34,858 - INFO - server - start program 
+2023-05-28 19:13:34,858 -  start program 
+2023-05-28 19:13:42,087 - INFO - server - connected from ('127.0.0.1', 45022) 
+2023-05-28 19:13:42,087 -  connected from ('127.0.0.1', 45022) 
+2023-05-28 19:13:42,088 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> receiving {'action': 'presence', 'time': 1685290421.2744784, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:13:42,088 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> receiving {'action': 'presence', 'time': 1685290421.2744784, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:13:42,118 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:13:42,118 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:13:42,119 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> 
+2023-05-28 19:13:42,119 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> 
+2023-05-28 19:14:07,034 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> receiving {'action': 'message', 'time': 1685290446.8647976, 'type': 'message', 'destination': 'all', 'text': 'dsawasda', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:14:07,034 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45022)> receiving {'action': 'message', 'time': 1685290446.8647976, 'type': 'message', 'destination': 'all', 'text': 'dsawasda', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:14:07,035 - INFO - server - message {'action': 'message', 'time': 1685290446.8647976, 'type': 'message', 'destination': 'all', 'text': 'dsawasda', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:14:07,035 -  message {'action': 'message', 'time': 1685290446.8647976, 'type': 'message', 'destination': 'all', 'text': 'dsawasda', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:16:25,504 - INFO - server - connected from ('127.0.0.1', 56170) 
+2023-05-28 19:16:25,504 -  connected from ('127.0.0.1', 56170) 
+2023-05-28 19:16:25,706 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> receiving {'action': 'presence', 'time': 1685290585.504591, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:16:25,706 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> receiving {'action': 'presence', 'time': 1685290585.504591, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:16:25,750 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:16:25,750 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:16:25,750 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> 
+2023-05-28 19:16:25,750 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> 
+2023-05-28 19:16:31,208 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> receiving {'action': 'message', 'time': 1685290591.0305243, 'type': 'message', 'destination': 'alex', 'text': 'wdasvcasd', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:16:31,208 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56170)> receiving {'action': 'message', 'time': 1685290591.0305243, 'type': 'message', 'destination': 'alex', 'text': 'wdasvcasd', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:16:31,209 - INFO - server - message {'action': 'message', 'time': 1685290591.0305243, 'type': 'message', 'destination': 'alex', 'text': 'wdasvcasd', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} sent 
+2023-05-28 19:16:31,209 -  message {'action': 'message', 'time': 1685290591.0305243, 'type': 'message', 'destination': 'alex', 'text': 'wdasvcasd', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} sent 
+2023-05-28 19:18:22,826 - INFO - server - start program 
+2023-05-28 19:18:22,826 -  start program 
+2023-05-28 19:18:31,248 - INFO - server - connected from ('127.0.0.1', 57974) 
+2023-05-28 19:18:31,248 -  connected from ('127.0.0.1', 57974) 
+2023-05-28 19:18:31,249 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57974)> receiving {'action': 'presence', 'time': 1685290711.070695, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'aler', 'status': 'I am here!'}} 
+2023-05-28 19:18:31,249 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57974)> receiving {'action': 'presence', 'time': 1685290711.070695, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'aler', 'status': 'I am here!'}} 
+2023-05-28 19:25:42,570 - INFO - server - start program 
+2023-05-28 19:25:42,570 -  start program 
+2023-05-28 19:25:48,583 - INFO - server - connected from ('127.0.0.1', 49692) 
+2023-05-28 19:25:48,583 -  connected from ('127.0.0.1', 49692) 
+2023-05-28 19:25:48,583 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> receiving {'action': 'presence', 'time': 1685291148.554113, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:25:48,583 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> receiving {'action': 'presence', 'time': 1685291148.554113, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:25:48,595 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:25:48,595 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:25:48,595 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> 
+2023-05-28 19:25:48,595 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> 
+2023-05-28 19:25:52,238 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> receiving {'action': 'message', 'time': 1685291152.148129, 'type': 'message', 'destination': 'all', 'text': 'qvwds', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:25:52,238 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49692)> receiving {'action': 'message', 'time': 1685291152.148129, 'type': 'message', 'destination': 'all', 'text': 'qvwds', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:25:52,239 - INFO - server - message {'action': 'message', 'time': 1685291152.148129, 'type': 'message', 'destination': 'all', 'text': 'qvwds', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:25:52,239 -  message {'action': 'message', 'time': 1685291152.148129, 'type': 'message', 'destination': 'all', 'text': 'qvwds', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:26:28,835 - INFO - server - connected from ('127.0.0.1', 54828) 
+2023-05-28 19:26:28,835 -  connected from ('127.0.0.1', 54828) 
+2023-05-28 19:26:28,836 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> receiving {'action': 'presence', 'time': 1685291188.1464505, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} 
+2023-05-28 19:26:28,836 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> receiving {'action': 'presence', 'time': 1685291188.1464505, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} 
+2023-05-28 19:26:28,849 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:26:28,849 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:26:28,850 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> 
+2023-05-28 19:26:28,850 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> 
+2023-05-28 19:26:32,874 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> receiving {'action': 'message', 'time': 1685291192.8485365, 'type': 'message', 'destination': 'all', 'text': 'dadvsa', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} 
+2023-05-28 19:26:32,874 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54828)> receiving {'action': 'message', 'time': 1685291192.8485365, 'type': 'message', 'destination': 'all', 'text': 'dadvsa', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} 
+2023-05-28 19:26:32,874 - INFO - server - message {'action': 'message', 'time': 1685291192.8485365, 'type': 'message', 'destination': 'all', 'text': 'dadvsa', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} sent 
+2023-05-28 19:26:32,874 -  message {'action': 'message', 'time': 1685291192.8485365, 'type': 'message', 'destination': 'all', 'text': 'dadvsa', 'user': {'account_name': 'regdssddsa', 'status': 'I am here!'}} sent 
+2023-05-28 19:27:01,644 - INFO - server - connected from ('127.0.0.1', 51750) 
+2023-05-28 19:27:01,644 -  connected from ('127.0.0.1', 51750) 
+2023-05-28 19:27:01,645 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> receiving {'action': 'presence', 'time': 1685291220.6645594, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:27:01,645 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> receiving {'action': 'presence', 'time': 1685291220.6645594, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:27:01,658 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:27:01,658 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:27:01,661 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> 
+2023-05-28 19:27:01,661 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> 
+2023-05-28 19:27:09,920 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> receiving {'action': 'message', 'time': 1685291229.721053, 'type': 'message', 'destination': 'alevsdc', 'text': 'effdv', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:27:09,920 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51750)> receiving {'action': 'message', 'time': 1685291229.721053, 'type': 'message', 'destination': 'alevsdc', 'text': 'effdv', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} 
+2023-05-28 19:27:09,921 - INFO - server - message {'action': 'message', 'time': 1685291229.721053, 'type': 'message', 'destination': 'alevsdc', 'text': 'effdv', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} sent 
+2023-05-28 19:27:09,921 -  message {'action': 'message', 'time': 1685291229.721053, 'type': 'message', 'destination': 'alevsdc', 'text': 'effdv', 'user': {'account_name': 'asdfg', 'status': 'I am here!'}} sent 
+2023-05-28 19:28:27,107 - INFO - server - start program 
+2023-05-28 19:28:27,107 -  start program 
+2023-05-28 19:28:29,335 - INFO - server - start program 
+2023-05-28 19:28:29,335 -  start program 
+2023-05-28 19:28:33,654 - INFO - server - start program 
+2023-05-28 19:28:33,654 -  start program 
+2023-05-28 19:28:34,758 - INFO - server - start program 
+2023-05-28 19:28:34,758 -  start program 
+2023-05-28 19:29:32,850 - INFO - server - start program 
+2023-05-28 19:29:32,850 -  start program 
+2023-05-28 19:29:42,469 - INFO - server - connected from ('127.0.0.1', 44158) 
+2023-05-28 19:29:42,469 -  connected from ('127.0.0.1', 44158) 
+2023-05-28 19:29:42,470 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> receiving {'action': 'presence', 'time': 1685291381.8918881, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:29:42,470 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> receiving {'action': 'presence', 'time': 1685291381.8918881, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:29:42,487 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:29:42,487 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:29:42,487 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> 
+2023-05-28 19:29:42,487 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> 
+2023-05-28 19:29:48,352 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> receiving {'action': 'message', 'time': 1685291388.3338768, 'type': 'message', 'destination': 'alex', 'text': 'wqsdvs', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:29:48,352 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44158)> receiving {'action': 'message', 'time': 1685291388.3338768, 'type': 'message', 'destination': 'alex', 'text': 'wqsdvs', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:29:48,352 - INFO - server - message {'action': 'message', 'time': 1685291388.3338768, 'type': 'message', 'destination': 'alex', 'text': 'wqsdvs', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:29:48,352 -  message {'action': 'message', 'time': 1685291388.3338768, 'type': 'message', 'destination': 'alex', 'text': 'wqsdvs', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:31:57,694 - INFO - server - start program 
+2023-05-28 19:31:57,694 -  start program 
+2023-05-28 19:32:07,195 - INFO - server - start program 
+2023-05-28 19:32:07,195 -  start program 
+2023-05-28 19:32:08,393 - INFO - server - start program 
+2023-05-28 19:32:08,393 -  start program 
+2023-05-28 19:32:11,472 - INFO - server - start program 
+2023-05-28 19:32:11,472 -  start program 
+2023-05-28 19:32:12,577 - INFO - server - start program 
+2023-05-28 19:32:12,577 -  start program 
+2023-05-28 19:33:38,357 - INFO - server - start program 
+2023-05-28 19:33:38,357 -  start program 
+2023-05-28 19:33:44,488 - INFO - server - connected from ('127.0.0.1', 45468) 
+2023-05-28 19:33:44,488 -  connected from ('127.0.0.1', 45468) 
+2023-05-28 19:33:44,489 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> receiving {'action': 'presence', 'time': 1685291624.4890134, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:33:44,489 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> receiving {'action': 'presence', 'time': 1685291624.4890134, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:33:44,497 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:33:44,497 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:33:44,497 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> 
+2023-05-28 19:33:44,497 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> 
+2023-05-28 19:33:47,526 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> receiving {'action': 'message', 'time': 1685291627.3985617, 'type': 'message', 'destination': 'dwsv', 'text': 'vsdd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:33:47,526 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45468)> receiving {'action': 'message', 'time': 1685291627.3985617, 'type': 'message', 'destination': 'dwsv', 'text': 'vsdd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:33:47,527 - INFO - server - message {'action': 'message', 'time': 1685291627.3985617, 'type': 'message', 'destination': 'dwsv', 'text': 'vsdd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:33:47,527 -  message {'action': 'message', 'time': 1685291627.3985617, 'type': 'message', 'destination': 'dwsv', 'text': 'vsdd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 19:38:41,349 - INFO - server - start program 
+2023-05-28 19:38:41,349 -  start program 
+2023-05-28 19:38:47,429 - INFO - server - connected from ('127.0.0.1', 59816) 
+2023-05-28 19:38:47,429 -  connected from ('127.0.0.1', 59816) 
+2023-05-28 19:38:47,429 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59816)> receiving {'action': 'presence', 'time': 1685291927.429686, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:38:47,429 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59816)> receiving {'action': 'presence', 'time': 1685291927.429686, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:40:09,795 - INFO - server - start program 
+2023-05-28 19:40:09,795 -  start program 
+2023-05-28 19:40:17,217 - INFO - server - start program 
+2023-05-28 19:40:17,217 -  start program 
+2023-05-28 19:40:30,668 - INFO - server - start program 
+2023-05-28 19:40:30,668 -  start program 
+2023-05-28 19:40:36,763 - INFO - server - connected from ('127.0.0.1', 44872) 
+2023-05-28 19:40:36,763 -  connected from ('127.0.0.1', 44872) 
+2023-05-28 19:40:36,763 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44872)> receiving {'action': 'presence', 'time': 1685292036.7631605, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:40:36,763 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 44872)> receiving {'action': 'presence', 'time': 1685292036.7631605, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:45:19,033 - INFO - server - start program 
+2023-05-28 19:45:19,033 -  start program 
+2023-05-28 19:45:27,462 - INFO - server - connected from ('127.0.0.1', 51986) 
+2023-05-28 19:45:27,462 -  connected from ('127.0.0.1', 51986) 
+2023-05-28 19:45:27,462 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51986)> receiving {'action': 'presence', 'time': 1685292326.688155, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:45:27,462 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51986)> receiving {'action': 'presence', 'time': 1685292326.688155, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:48:08,315 - INFO - server - start program 
+2023-05-28 19:48:08,315 -  start program 
+2023-05-28 19:48:15,535 - INFO - server - connected from ('127.0.0.1', 36576) 
+2023-05-28 19:48:15,535 -  connected from ('127.0.0.1', 36576) 
+2023-05-28 19:48:15,535 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36576)> receiving {'action': 'presence', 'time': 1685292495.039616, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:48:15,535 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36576)> receiving {'action': 'presence', 'time': 1685292495.039616, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:50:34,227 - INFO - server - start program 
+2023-05-28 19:50:34,227 -  start program 
+2023-05-28 19:50:42,667 - INFO - server - connected from ('127.0.0.1', 46236) 
+2023-05-28 19:50:42,667 -  connected from ('127.0.0.1', 46236) 
+2023-05-28 19:50:42,668 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46236)> receiving {'action': 'presence', 'time': 1685292642.3635743, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:50:42,668 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46236)> receiving {'action': 'presence', 'time': 1685292642.3635743, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:50:42,709 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:50:42,709 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:50:42,710 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46236)> 
+2023-05-28 19:50:42,710 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46236)> 
+2023-05-28 19:51:23,605 - INFO - server - start program 
+2023-05-28 19:51:23,605 -  start program 
+2023-05-28 19:51:29,830 - INFO - server - start program 
+2023-05-28 19:51:29,830 -  start program 
+2023-05-28 19:51:31,120 - INFO - server - start program 
+2023-05-28 19:51:31,120 -  start program 
+2023-05-28 19:51:35,380 - INFO - server - start program 
+2023-05-28 19:51:35,380 -  start program 
+2023-05-28 19:51:37,100 - INFO - server - start program 
+2023-05-28 19:51:37,100 -  start program 
+2023-05-28 19:51:39,536 - INFO - server - start program 
+2023-05-28 19:51:39,536 -  start program 
+2023-05-28 19:51:40,670 - INFO - server - start program 
+2023-05-28 19:51:40,670 -  start program 
+2023-05-28 19:51:47,386 - INFO - server - start program 
+2023-05-28 19:51:47,386 -  start program 
+2023-05-28 19:52:19,133 - INFO - server - start program 
+2023-05-28 19:52:19,133 -  start program 
+2023-05-28 19:52:26,358 - INFO - server - connected from ('127.0.0.1', 54170) 
+2023-05-28 19:52:26,358 -  connected from ('127.0.0.1', 54170) 
+2023-05-28 19:52:26,358 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54170)> receiving {'action': 'presence', 'time': 1685292746.2100513, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:52:26,358 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54170)> receiving {'action': 'presence', 'time': 1685292746.2100513, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:52:26,385 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:52:26,385 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 19:52:26,386 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54170)> 
+2023-05-28 19:52:26,386 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54170)> 
+2023-05-28 19:53:31,643 - INFO - server - start program 
+2023-05-28 19:53:31,643 -  start program 
+2023-05-28 19:53:37,652 - INFO - server - start program 
+2023-05-28 19:53:37,652 -  start program 
+2023-05-28 19:53:38,747 - INFO - server - start program 
+2023-05-28 19:53:38,747 -  start program 
+2023-05-28 19:53:39,778 - INFO - server - start program 
+2023-05-28 19:53:39,778 -  start program 
+2023-05-28 19:53:42,626 - INFO - server - start program 
+2023-05-28 19:53:42,626 -  start program 
+2023-05-28 19:53:43,929 - INFO - server - start program 
+2023-05-28 19:53:43,929 -  start program 
+2023-05-28 19:53:46,558 - INFO - server - start program 
+2023-05-28 19:53:46,558 -  start program 
+2023-05-28 19:53:47,732 - INFO - server - start program 
+2023-05-28 19:53:47,732 -  start program 
+2023-05-28 19:53:52,532 - INFO - server - start program 
+2023-05-28 19:53:52,532 -  start program 
+2023-05-28 19:54:00,242 - INFO - server - start program 
+2023-05-28 19:54:00,242 -  start program 
+2023-05-28 19:54:01,555 - INFO - server - start program 
+2023-05-28 19:54:01,555 -  start program 
+2023-05-28 19:54:04,502 - INFO - server - start program 
+2023-05-28 19:54:04,502 -  start program 
+2023-05-28 19:55:04,657 - INFO - server - start program 
+2023-05-28 19:55:04,657 -  start program 
+2023-05-28 19:55:13,085 - INFO - server - connected from ('127.0.0.1', 59592) 
+2023-05-28 19:55:13,085 -  connected from ('127.0.0.1', 59592) 
+2023-05-28 19:55:13,086 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59592)> receiving {'action': 'presence', 'time': 1685292912.8755329, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:55:13,086 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59592)> receiving {'action': 'presence', 'time': 1685292912.8755329, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:57:11,007 - INFO - server - start program 
+2023-05-28 19:57:11,007 -  start program 
+2023-05-28 19:57:27,498 - INFO - server - start program 
+2023-05-28 19:57:27,498 -  start program 
+2023-05-28 19:57:28,855 - INFO - server - start program 
+2023-05-28 19:57:28,855 -  start program 
+2023-05-28 19:57:33,934 - INFO - server - start program 
+2023-05-28 19:57:33,934 -  start program 
+2023-05-28 19:57:35,004 - INFO - server - start program 
+2023-05-28 19:57:35,004 -  start program 
+2023-05-28 19:58:02,949 - INFO - server - start program 
+2023-05-28 19:58:02,949 -  start program 
+2023-05-28 19:58:10,166 - INFO - server - connected from ('127.0.0.1', 33740) 
+2023-05-28 19:58:10,166 -  connected from ('127.0.0.1', 33740) 
+2023-05-28 19:58:10,166 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33740)> receiving {'action': 'presence', 'time': 1685293089.2511413, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:58:10,166 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33740)> receiving {'action': 'presence', 'time': 1685293089.2511413, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 19:59:58,566 - INFO - server - start program 
+2023-05-28 19:59:58,566 -  start program 
+2023-05-28 20:00:05,485 - INFO - server - start program 
+2023-05-28 20:00:05,485 -  start program 
+2023-05-28 20:00:11,712 - INFO - server - start program 
+2023-05-28 20:00:11,712 -  start program 
+2023-05-28 20:00:13,509 - INFO - server - start program 
+2023-05-28 20:00:13,509 -  start program 
+2023-05-28 20:00:20,726 - INFO - server - connected from ('127.0.0.1', 43230) 
+2023-05-28 20:00:20,726 -  connected from ('127.0.0.1', 43230) 
+2023-05-28 20:00:20,727 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43230)> receiving {'action': 'presence', 'time': 1685293220.3416069, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:00:20,727 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43230)> receiving {'action': 'presence', 'time': 1685293220.3416069, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:09:36,728 - INFO - server - start program 
+2023-05-28 20:09:36,728 -  start program 
+2023-05-28 20:09:42,745 - INFO - server - connected from ('127.0.0.1', 58854) 
+2023-05-28 20:09:42,745 -  connected from ('127.0.0.1', 58854) 
+2023-05-28 20:09:42,746 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58854)> receiving {'action': 'presence', 'time': 1685293782.2542336, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:09:42,746 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58854)> receiving {'action': 'presence', 'time': 1685293782.2542336, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:09:42,768 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:09:42,768 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:09:42,769 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58854)> 
+2023-05-28 20:09:42,769 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58854)> 
+2023-05-28 20:17:25,946 - INFO - server - start program 
+2023-05-28 20:17:25,946 -  start program 
+2023-05-28 20:17:34,367 - INFO - server - connected from ('127.0.0.1', 41612) 
+2023-05-28 20:17:34,367 -  connected from ('127.0.0.1', 41612) 
+2023-05-28 20:17:34,368 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41612)> receiving {'action': 'presence', 'time': 1685294253.8533156, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:17:34,368 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41612)> receiving {'action': 'presence', 'time': 1685294253.8533156, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:18:04,983 - INFO - server - start program 
+2023-05-28 20:18:04,983 -  start program 
+2023-05-28 20:19:14,815 - INFO - server - start program 
+2023-05-28 20:19:14,815 -  start program 
+2023-05-28 20:19:17,863 - INFO - server - start program 
+2023-05-28 20:19:17,863 -  start program 
+2023-05-28 20:19:25,087 - INFO - server - connected from ('127.0.0.1', 56194) 
+2023-05-28 20:19:25,087 -  connected from ('127.0.0.1', 56194) 
+2023-05-28 20:19:25,088 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> receiving {'action': 'presence', 'time': 1685294364.2776246, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:19:25,088 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> receiving {'action': 'presence', 'time': 1685294364.2776246, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:19:25,119 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:19:25,119 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:19:25,119 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> 
+2023-05-28 20:19:25,119 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> 
+2023-05-28 20:19:43,296 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> receiving {'action': 'message', 'time': 1685294383.2236385, 'type': 'message', 'destination': 'weffdsadsa', 'text': 'dfsdvf', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:19:43,296 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56194)> receiving {'action': 'message', 'time': 1685294383.2236385, 'type': 'message', 'destination': 'weffdsadsa', 'text': 'dfsdvf', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:19:43,297 - INFO - server - message {'action': 'message', 'time': 1685294383.2236385, 'type': 'message', 'destination': 'weffdsadsa', 'text': 'dfsdvf', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:19:43,297 -  message {'action': 'message', 'time': 1685294383.2236385, 'type': 'message', 'destination': 'weffdsadsa', 'text': 'dfsdvf', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:20:23,528 - INFO - server - start program 
+2023-05-28 20:20:23,528 -  start program 
+2023-05-28 20:20:33,161 - INFO - server - connected from ('127.0.0.1', 35612) 
+2023-05-28 20:20:33,161 -  connected from ('127.0.0.1', 35612) 
+2023-05-28 20:20:33,162 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> receiving {'action': 'presence', 'time': 1685294432.5143445, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:20:33,162 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> receiving {'action': 'presence', 'time': 1685294432.5143445, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:20:33,215 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:20:33,215 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:20:33,216 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> 
+2023-05-28 20:20:33,216 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> 
+2023-05-28 20:20:35,830 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> receiving {'action': 'message', 'time': 1685294435.7962613, 'type': 'message', 'destination': 'dbsdfs', 'text': 'swdvfsvfd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:20:35,830 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35612)> receiving {'action': 'message', 'time': 1685294435.7962613, 'type': 'message', 'destination': 'dbsdfs', 'text': 'swdvfsvfd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:20:35,830 - INFO - server - message {'action': 'message', 'time': 1685294435.7962613, 'type': 'message', 'destination': 'dbsdfs', 'text': 'swdvfsvfd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:20:35,830 -  message {'action': 'message', 'time': 1685294435.7962613, 'type': 'message', 'destination': 'dbsdfs', 'text': 'swdvfsvfd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:22:02,732 - INFO - server - connected from ('127.0.0.1', 54624) 
+2023-05-28 20:22:02,732 -  connected from ('127.0.0.1', 54624) 
+2023-05-28 20:22:02,733 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> receiving {'action': 'presence', 'time': 1685294521.797834, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} 
+2023-05-28 20:22:02,733 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> receiving {'action': 'presence', 'time': 1685294521.797834, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} 
+2023-05-28 20:22:02,771 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:22:02,771 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:22:02,771 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> 
+2023-05-28 20:22:02,771 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> 
+2023-05-28 20:22:07,820 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> receiving {'action': 'message', 'time': 1685294527.8016334, 'type': 'message', 'destination': 'alex', 'text': 'wedsfvsa', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} 
+2023-05-28 20:22:07,820 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54624)> receiving {'action': 'message', 'time': 1685294527.8016334, 'type': 'message', 'destination': 'alex', 'text': 'wedsfvsa', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} 
+2023-05-28 20:22:07,820 - INFO - server - message {'action': 'message', 'time': 1685294527.8016334, 'type': 'message', 'destination': 'alex', 'text': 'wedsfvsa', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} sent 
+2023-05-28 20:22:07,820 -  message {'action': 'message', 'time': 1685294527.8016334, 'type': 'message', 'destination': 'alex', 'text': 'wedsfvsa', 'user': {'account_name': 'user_1', 'status': 'I am here!'}} sent 
+2023-05-28 20:22:50,735 - INFO - server - connected from ('127.0.0.1', 59368) 
+2023-05-28 20:22:50,735 -  connected from ('127.0.0.1', 59368) 
+2023-05-28 20:22:50,736 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> receiving {'action': 'presence', 'time': 1685294570.396507, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:22:50,736 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> receiving {'action': 'presence', 'time': 1685294570.396507, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:22:50,772 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:22:50,772 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:22:50,772 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> 
+2023-05-28 20:22:50,772 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> 
+2023-05-28 20:22:53,187 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> receiving {'action': 'message', 'time': 1685294573.1248507, 'type': 'message', 'destination': 'wedwvg', 'text': 'wvfdsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:22:53,187 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59368)> receiving {'action': 'message', 'time': 1685294573.1248507, 'type': 'message', 'destination': 'wedwvg', 'text': 'wvfdsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:22:53,187 - INFO - server - message {'action': 'message', 'time': 1685294573.1248507, 'type': 'message', 'destination': 'wedwvg', 'text': 'wvfdsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:22:53,187 -  message {'action': 'message', 'time': 1685294573.1248507, 'type': 'message', 'destination': 'wedwvg', 'text': 'wvfdsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:35:52,310 - INFO - server - start program 
+2023-05-28 20:35:52,310 -  start program 
+2023-05-28 20:35:59,523 - INFO - server - connected from ('127.0.0.1', 50276) 
+2023-05-28 20:35:59,523 -  connected from ('127.0.0.1', 50276) 
+2023-05-28 20:35:59,523 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> receiving {'action': 'presence', 'time': 1685295359.3661504, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:35:59,523 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> receiving {'action': 'presence', 'time': 1685295359.3661504, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:35:59,539 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:35:59,539 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 20:35:59,539 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> 
+2023-05-28 20:35:59,539 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> 
+2023-05-28 20:36:03,772 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> receiving {'action': 'message', 'time': 1685295363.6219864, 'type': 'message', 'destination': 'all', 'text': 'ddsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:36:03,772 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50276)> receiving {'action': 'message', 'time': 1685295363.6219864, 'type': 'message', 'destination': 'all', 'text': 'ddsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 20:36:03,773 - INFO - server - message {'action': 'message', 'time': 1685295363.6219864, 'type': 'message', 'destination': 'all', 'text': 'ddsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 20:36:03,773 -  message {'action': 'message', 'time': 1685295363.6219864, 'type': 'message', 'destination': 'all', 'text': 'ddsv', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 21:08:09,558 - INFO - server - start program 
+2023-05-28 21:08:09,558 -  start program 
+2023-05-28 21:08:17,971 - INFO - server - connected from ('127.0.0.1', 54160) 
+2023-05-28 21:08:17,971 -  connected from ('127.0.0.1', 54160) 
+2023-05-28 21:08:17,973 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> receiving {'action': 'presence', 'time': 1685297297.380219, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:08:17,973 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> receiving {'action': 'presence', 'time': 1685297297.380219, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:08:18,024 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:08:18,024 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:08:18,025 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> 
+2023-05-28 21:08:18,025 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> 
+2023-05-28 21:08:26,925 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> receiving {'action': 'message', 'time': 1685297306.8784895, 'type': 'message', 'destination': 'sdvsd;v', 'text': 'svdsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:08:26,925 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54160)> receiving {'action': 'message', 'time': 1685297306.8784895, 'type': 'message', 'destination': 'sdvsd;v', 'text': 'svdsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:08:26,927 - INFO - server - message {'action': 'message', 'time': 1685297306.8784895, 'type': 'message', 'destination': 'sdvsd;v', 'text': 'svdsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 21:08:26,927 -  message {'action': 'message', 'time': 1685297306.8784895, 'type': 'message', 'destination': 'sdvsd;v', 'text': 'svdsd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 21:08:49,630 - INFO - server - connected from ('127.0.0.1', 49922) 
+2023-05-28 21:08:49,630 -  connected from ('127.0.0.1', 49922) 
+2023-05-28 21:08:49,631 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'presence', 'time': 1685297328.837981, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:08:49,631 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'presence', 'time': 1685297328.837981, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:08:49,677 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:08:49,677 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:08:49,677 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> 
+2023-05-28 21:08:49,677 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> 
+2023-05-28 21:09:00,754 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297340.6145678, 'type': 'message', 'destination': 'alex', 'text': 'test', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:09:00,754 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297340.6145678, 'type': 'message', 'destination': 'alex', 'text': 'test', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:09:00,760 - INFO - server - message {'action': 'message', 'time': 1685297340.6145678, 'type': 'message', 'destination': 'alex', 'text': 'test', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:09:00,760 -  message {'action': 'message', 'time': 1685297340.6145678, 'type': 'message', 'destination': 'alex', 'text': 'test', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:09:55,679 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297395.5495093, 'type': 'message', 'destination': 'alex', 'text': 'grsdg', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:09:55,679 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297395.5495093, 'type': 'message', 'destination': 'alex', 'text': 'grsdg', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:09:55,684 - INFO - server - message {'action': 'message', 'time': 1685297395.5495093, 'type': 'message', 'destination': 'alex', 'text': 'grsdg', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:09:55,684 -  message {'action': 'message', 'time': 1685297395.5495093, 'type': 'message', 'destination': 'alex', 'text': 'grsdg', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:10:11,485 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297411.3443224, 'type': 'message', 'destination': 'alex', 'text': 'fsdsdf', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:10:11,485 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297411.3443224, 'type': 'message', 'destination': 'alex', 'text': 'fsdsdf', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:10:11,496 - INFO - server - message {'action': 'message', 'time': 1685297411.3443224, 'type': 'message', 'destination': 'alex', 'text': 'fsdsdf', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:10:11,496 -  message {'action': 'message', 'time': 1685297411.3443224, 'type': 'message', 'destination': 'alex', 'text': 'fsdsdf', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:10:22,765 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297422.601577, 'type': 'message', 'destination': 'alex', 'text': 'etherfaswde', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:10:22,765 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49922)> receiving {'action': 'message', 'time': 1685297422.601577, 'type': 'message', 'destination': 'alex', 'text': 'etherfaswde', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:10:22,771 - INFO - server - message {'action': 'message', 'time': 1685297422.601577, 'type': 'message', 'destination': 'alex', 'text': 'etherfaswde', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:10:22,771 -  message {'action': 'message', 'time': 1685297422.601577, 'type': 'message', 'destination': 'alex', 'text': 'etherfaswde', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:11:46,360 - INFO - server - start program 
+2023-05-28 21:11:46,360 -  start program 
+2023-05-28 21:11:50,357 - INFO - server - start program 
+2023-05-28 21:11:50,357 -  start program 
+2023-05-28 21:11:52,878 - INFO - server - start program 
+2023-05-28 21:11:52,878 -  start program 
+2023-05-28 21:11:54,350 - INFO - server - start program 
+2023-05-28 21:11:54,350 -  start program 
+2023-05-28 21:12:00,892 - INFO - server - start program 
+2023-05-28 21:12:00,892 -  start program 
+2023-05-28 21:12:21,989 - INFO - server - start program 
+2023-05-28 21:12:21,989 -  start program 
+2023-05-28 21:12:23,308 - INFO - server - start program 
+2023-05-28 21:12:23,308 -  start program 
+2023-05-28 21:12:24,359 - INFO - server - start program 
+2023-05-28 21:12:24,359 -  start program 
+2023-05-28 21:12:28,310 - INFO - server - start program 
+2023-05-28 21:12:28,310 -  start program 
+2023-05-28 21:12:29,443 - INFO - server - start program 
+2023-05-28 21:12:29,443 -  start program 
+2023-05-28 21:12:30,459 - INFO - server - start program 
+2023-05-28 21:12:30,459 -  start program 
+2023-05-28 21:12:31,337 - INFO - server - start program 
+2023-05-28 21:12:31,337 -  start program 
+2023-05-28 21:12:32,281 - INFO - server - start program 
+2023-05-28 21:12:32,281 -  start program 
+2023-05-28 21:12:33,201 - INFO - server - start program 
+2023-05-28 21:12:33,201 -  start program 
+2023-05-28 21:12:35,447 - INFO - server - start program 
+2023-05-28 21:12:35,447 -  start program 
+2023-05-28 21:13:05,498 - INFO - server - start program 
+2023-05-28 21:13:05,498 -  start program 
+2023-05-28 21:13:18,744 - INFO - server - connected from ('127.0.0.1', 34328) 
+2023-05-28 21:13:18,744 -  connected from ('127.0.0.1', 34328) 
+2023-05-28 21:13:18,745 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> receiving {'action': 'presence', 'time': 1685297598.4994638, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:13:18,745 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> receiving {'action': 'presence', 'time': 1685297598.4994638, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:13:18,788 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:13:18,788 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:13:18,789 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> 
+2023-05-28 21:13:18,789 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> 
+2023-05-28 21:13:36,142 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> receiving {'action': 'message', 'time': 1685297616.0024655, 'type': 'message', 'destination': 'alex', 'text': 'dsd', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:13:36,142 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34328)> receiving {'action': 'message', 'time': 1685297616.0024655, 'type': 'message', 'destination': 'alex', 'text': 'dsd', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:13:36,157 - INFO - server - message {'action': 'message', 'time': 1685297616.0024655, 'type': 'message', 'destination': 'alex', 'text': 'dsd', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:13:36,157 -  message {'action': 'message', 'time': 1685297616.0024655, 'type': 'message', 'destination': 'alex', 'text': 'dsd', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} sent 
+2023-05-28 21:37:14,091 - INFO - server - start program 
+2023-05-28 21:37:14,091 -  start program 
+2023-05-28 21:37:46,834 - INFO - server - start program 
+2023-05-28 21:37:46,834 -  start program 
+2023-05-28 21:37:48,653 - INFO - server - start program 
+2023-05-28 21:37:48,653 -  start program 
+2023-05-28 21:37:53,069 - INFO - server - start program 
+2023-05-28 21:37:53,069 -  start program 
+2023-05-28 21:38:16,190 - INFO - server - start program 
+2023-05-28 21:38:16,190 -  start program 
+2023-05-28 21:38:28,225 - INFO - server - connected from ('127.0.0.1', 41198) 
+2023-05-28 21:38:28,225 -  connected from ('127.0.0.1', 41198) 
+2023-05-28 21:38:28,226 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> receiving {'action': 'presence', 'time': 1685299107.9126263, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} 
+2023-05-28 21:38:28,226 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> receiving {'action': 'presence', 'time': 1685299107.9126263, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} 
+2023-05-28 21:38:28,256 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:38:28,256 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:38:28,256 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> 
+2023-05-28 21:38:28,256 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> 
+2023-05-28 21:38:39,567 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> receiving {'action': 'message', 'time': 1685299119.397552, 'type': 'message', 'destination': 'alex', 'text': 'wdsav', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} 
+2023-05-28 21:38:39,567 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41198)> receiving {'action': 'message', 'time': 1685299119.397552, 'type': 'message', 'destination': 'alex', 'text': 'wdsav', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} 
+2023-05-28 21:38:39,595 - INFO - server - message {'action': 'message', 'time': 1685299119.397552, 'type': 'message', 'destination': 'alex', 'text': 'wdsav', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} sent 
+2023-05-28 21:38:39,595 -  message {'action': 'message', 'time': 1685299119.397552, 'type': 'message', 'destination': 'alex', 'text': 'wdsav', 'user': {'account_name': 'user_2', 'status': 'I am here!'}} sent 
+2023-05-28 21:39:19,108 - INFO - server - connected from ('127.0.0.1', 51132) 
+2023-05-28 21:39:19,108 -  connected from ('127.0.0.1', 51132) 
+2023-05-28 21:39:19,108 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'presence', 'time': 1685299159.1086707, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:39:19,108 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'presence', 'time': 1685299159.1086707, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:39:19,116 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:39:19,116 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:39:19,117 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> 
+2023-05-28 21:39:19,117 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> 
+2023-05-28 21:39:32,053 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'add_contact', 'time': 1685299171.8817503, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:39:32,053 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'add_contact', 'time': 1685299171.8817503, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:40:33,926 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'add_contact', 'time': 1685299233.889067, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:40:33,926 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51132)> receiving {'action': 'add_contact', 'time': 1685299233.889067, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:40:52,672 - INFO - server - connected from ('127.0.0.1', 50858) 
+2023-05-28 21:40:52,672 -  connected from ('127.0.0.1', 50858) 
+2023-05-28 21:40:52,672 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> receiving {'action': 'presence', 'time': 1685299252.6373692, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:40:52,672 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> receiving {'action': 'presence', 'time': 1685299252.6373692, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:40:52,681 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:40:52,681 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:40:52,681 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> 
+2023-05-28 21:40:52,681 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> 
+2023-05-28 21:41:01,959 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> receiving {'action': 'add_contact', 'time': 1685299261.8393466, 'user_login': 'vsfbs', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:41:01,959 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50858)> receiving {'action': 'add_contact', 'time': 1685299261.8393466, 'user_login': 'vsfbs', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:46:40,236 - INFO - server - start program 
+2023-05-28 21:46:40,236 -  start program 
+2023-05-28 21:46:57,080 - INFO - server - connected from ('127.0.0.1', 32776) 
+2023-05-28 21:46:57,080 -  connected from ('127.0.0.1', 32776) 
+2023-05-28 21:46:57,081 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> receiving {'action': 'presence', 'time': 1685299616.9688115, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:46:57,081 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> receiving {'action': 'presence', 'time': 1685299616.9688115, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'user_0', 'status': 'I am here!'}} 
+2023-05-28 21:46:57,116 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:46:57,116 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:46:57,117 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> 
+2023-05-28 21:46:57,117 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> 
+2023-05-28 21:47:45,326 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> receiving {'action': 'add_contact', 'time': 1685299665.1352508, 'user_login': 'user_2', 'user': {'account_name': 'user_0'}} 
+2023-05-28 21:47:45,326 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 32776)> receiving {'action': 'add_contact', 'time': 1685299665.1352508, 'user_login': 'user_2', 'user': {'account_name': 'user_0'}} 
+2023-05-28 21:50:30,944 - INFO - server - start program 
+2023-05-28 21:50:30,944 -  start program 
+2023-05-28 21:50:39,376 - INFO - server - connected from ('127.0.0.1', 60672) 
+2023-05-28 21:50:39,376 -  connected from ('127.0.0.1', 60672) 
+2023-05-28 21:50:39,377 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> receiving {'action': 'presence', 'time': 1685299839.2717454, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:50:39,377 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> receiving {'action': 'presence', 'time': 1685299839.2717454, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:50:39,391 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:50:39,391 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:50:39,392 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> 
+2023-05-28 21:50:39,392 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> 
+2023-05-28 21:50:50,529 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> receiving {'action': 'add_contact', 'time': 1685299850.4536748, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:50:50,529 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60672)> receiving {'action': 'add_contact', 'time': 1685299850.4536748, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:51:48,569 - INFO - server - start program 
+2023-05-28 21:51:48,569 -  start program 
+2023-05-28 21:51:54,161 - INFO - server - start program 
+2023-05-28 21:51:54,161 -  start program 
+2023-05-28 21:51:55,581 - INFO - server - start program 
+2023-05-28 21:51:55,581 -  start program 
+2023-05-28 21:52:13,032 - INFO - server - start program 
+2023-05-28 21:52:13,032 -  start program 
+2023-05-28 21:52:14,382 - INFO - server - start program 
+2023-05-28 21:52:14,382 -  start program 
+2023-05-28 21:52:21,787 - INFO - server - start program 
+2023-05-28 21:52:21,787 -  start program 
+2023-05-28 21:52:27,087 - INFO - server - start program 
+2023-05-28 21:52:27,087 -  start program 
+2023-05-28 21:52:29,055 - INFO - server - start program 
+2023-05-28 21:52:29,055 -  start program 
+2023-05-28 21:52:55,476 - INFO - server - start program 
+2023-05-28 21:52:55,476 -  start program 
+2023-05-28 21:53:03,899 - INFO - server - connected from ('127.0.0.1', 39390) 
+2023-05-28 21:53:03,899 -  connected from ('127.0.0.1', 39390) 
+2023-05-28 21:53:03,901 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> receiving {'action': 'presence', 'time': 1685299983.6271136, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:53:03,901 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> receiving {'action': 'presence', 'time': 1685299983.6271136, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 21:53:03,943 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:53:03,943 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 21:53:03,945 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> 
+2023-05-28 21:53:03,945 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> 
+2023-05-28 21:53:10,626 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> receiving {'action': 'add_contact', 'time': 1685299990.4385858, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:53:10,626 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> receiving {'action': 'add_contact', 'time': 1685299990.4385858, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 21:53:10,649 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 21:53:10,649 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 21:53:10,650 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> 
+2023-05-28 21:53:10,650 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39390)> 
+2023-05-28 22:18:08,440 - INFO - server - start program 
+2023-05-28 22:18:08,440 -  start program 
+2023-05-28 22:18:14,461 - INFO - server - connected from ('127.0.0.1', 55480) 
+2023-05-28 22:18:14,461 -  connected from ('127.0.0.1', 55480) 
+2023-05-28 22:18:14,462 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> receiving {'action': 'presence', 'time': 1685301493.7512097, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:18:14,462 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> receiving {'action': 'presence', 'time': 1685301493.7512097, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:18:14,496 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:18:14,496 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:18:14,497 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> 
+2023-05-28 22:18:14,497 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> 
+2023-05-28 22:18:19,340 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> receiving {'action': 'get_contact', 'time': 1685301499.249366, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:18:19,340 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55480)> receiving {'action': 'get_contact', 'time': 1685301499.249366, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:22:45,591 - INFO - server - connected from ('127.0.0.1', 54372) 
+2023-05-28 22:22:45,591 -  connected from ('127.0.0.1', 54372) 
+2023-05-28 22:22:45,793 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> receiving {'action': 'presence', 'time': 1685301765.5922675, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:22:45,793 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> receiving {'action': 'presence', 'time': 1685301765.5922675, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:22:45,812 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:22:45,812 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:22:45,813 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> 
+2023-05-28 22:22:45,813 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> 
+2023-05-28 22:22:50,455 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> receiving {'action': 'get_contact', 'time': 1685301770.423982, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:22:50,455 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54372)> receiving {'action': 'get_contact', 'time': 1685301770.423982, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:23:25,399 - INFO - server - connected from ('127.0.0.1', 48636) 
+2023-05-28 22:23:25,399 -  connected from ('127.0.0.1', 48636) 
+2023-05-28 22:23:25,401 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> receiving {'action': 'presence', 'time': 1685301805.0602825, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:23:25,401 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> receiving {'action': 'presence', 'time': 1685301805.0602825, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:23:25,427 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:23:25,427 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:23:25,428 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> 
+2023-05-28 22:23:25,428 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> 
+2023-05-28 22:23:28,677 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> receiving {'action': 'get_contact', 'time': 1685301808.4993663, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:23:28,677 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48636)> receiving {'action': 'get_contact', 'time': 1685301808.4993663, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:27:19,134 - INFO - server - start program 
+2023-05-28 22:27:19,134 -  start program 
+2023-05-28 22:27:25,304 - INFO - server - connected from ('127.0.0.1', 35380) 
+2023-05-28 22:27:25,304 -  connected from ('127.0.0.1', 35380) 
+2023-05-28 22:27:25,304 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> receiving {'action': 'presence', 'time': 1685302045.304451, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:27:25,304 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> receiving {'action': 'presence', 'time': 1685302045.304451, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:27:25,319 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:27:25,319 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:27:25,319 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> 
+2023-05-28 22:27:25,319 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> 
+2023-05-28 22:27:38,521 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> receiving {'action': 'get_contacts', 'time': 1685302058.4374712, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:27:38,521 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35380)> receiving {'action': 'get_contacts', 'time': 1685302058.4374712, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:30:40,924 - INFO - server - start program 
+2023-05-28 22:30:40,924 -  start program 
+2023-05-28 22:30:47,094 - INFO - server - connected from ('127.0.0.1', 40424) 
+2023-05-28 22:30:47,094 -  connected from ('127.0.0.1', 40424) 
+2023-05-28 22:30:47,094 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> receiving {'action': 'presence', 'time': 1685302247.0947223, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:30:47,094 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> receiving {'action': 'presence', 'time': 1685302247.0947223, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:30:47,115 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:30:47,115 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:30:47,115 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> 
+2023-05-28 22:30:47,115 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> 
+2023-05-28 22:30:54,215 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> receiving {'action': 'get_contacts', 'time': 1685302254.1905138, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:30:54,215 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40424)> receiving {'action': 'get_contacts', 'time': 1685302254.1905138, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:32:18,418 - INFO - server - start program 
+2023-05-28 22:32:18,418 -  start program 
+2023-05-28 22:32:23,017 - INFO - server - start program 
+2023-05-28 22:32:23,017 -  start program 
+2023-05-28 22:32:29,077 - INFO - server - start program 
+2023-05-28 22:32:29,077 -  start program 
+2023-05-28 22:33:13,621 - INFO - server - connected from ('127.0.0.1', 58480) 
+2023-05-28 22:33:13,621 -  connected from ('127.0.0.1', 58480) 
+2023-05-28 22:33:13,622 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> receiving {'action': 'presence', 'time': 1685302392.8472748, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:33:13,622 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> receiving {'action': 'presence', 'time': 1685302392.8472748, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:33:13,688 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:33:13,688 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:33:13,689 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> 
+2023-05-28 22:33:13,689 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> 
+2023-05-28 22:33:42,833 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> receiving {'action': 'get_contacts', 'time': 1685302422.6432817, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:33:42,833 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58480)> receiving {'action': 'get_contacts', 'time': 1685302422.6432817, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:35:25,803 - INFO - server - start program 
+2023-05-28 22:35:25,803 -  start program 
+2023-05-28 22:35:50,851 - INFO - server - start program 
+2023-05-28 22:35:50,851 -  start program 
+2023-05-28 22:36:32,794 - INFO - server - start program 
+2023-05-28 22:36:32,794 -  start program 
+2023-05-28 22:36:40,028 - INFO - server - connected from ('127.0.0.1', 51970) 
+2023-05-28 22:36:40,028 -  connected from ('127.0.0.1', 51970) 
+2023-05-28 22:36:40,029 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> receiving {'action': 'presence', 'time': 1685302599.8299406, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:36:40,029 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> receiving {'action': 'presence', 'time': 1685302599.8299406, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:36:40,091 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:36:40,091 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:36:40,091 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> 
+2023-05-28 22:36:40,091 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> 
+2023-05-28 22:36:42,712 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> receiving {'action': 'get_contacts', 'time': 1685302602.5504827, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:36:42,712 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51970)> receiving {'action': 'get_contacts', 'time': 1685302602.5504827, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:44:53,549 - INFO - server - start program 
+2023-05-28 22:44:53,549 -  start program 
+2023-05-28 22:45:00,767 - INFO - server - connected from ('127.0.0.1', 45460) 
+2023-05-28 22:45:00,767 -  connected from ('127.0.0.1', 45460) 
+2023-05-28 22:45:00,777 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> receiving {'action': 'presence', 'time': 1685303100.1706228, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:45:00,777 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> receiving {'action': 'presence', 'time': 1685303100.1706228, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:45:00,824 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:45:00,824 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:45:00,825 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> 
+2023-05-28 22:45:00,825 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> 
+2023-05-28 22:45:02,841 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> receiving {'action': 'get_contacts', 'time': 1685303102.6751864, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:45:02,841 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45460)> receiving {'action': 'get_contacts', 'time': 1685303102.6751864, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:49:29,639 - INFO - server - start program 
+2023-05-28 22:49:29,639 -  start program 
+2023-05-28 22:49:35,649 - INFO - server - connected from ('127.0.0.1', 49984) 
+2023-05-28 22:49:35,649 -  connected from ('127.0.0.1', 49984) 
+2023-05-28 22:49:35,650 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> receiving {'action': 'presence', 'time': 1685303374.849558, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:49:35,650 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> receiving {'action': 'presence', 'time': 1685303374.849558, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 22:49:35,695 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:49:35,695 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 22:49:35,696 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> 
+2023-05-28 22:49:35,696 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> 
+2023-05-28 22:49:37,103 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> receiving {'action': 'get_contacts', 'time': 1685303377.0105, 'user': {'account_name': 'alex'}} 
+2023-05-28 22:49:37,103 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49984)> receiving {'action': 'get_contacts', 'time': 1685303377.0105, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:07:19,020 - INFO - server - start program 
+2023-05-28 23:07:19,020 -  start program 
+2023-05-28 23:07:28,649 - INFO - server - connected from ('127.0.0.1', 39768) 
+2023-05-28 23:07:28,649 -  connected from ('127.0.0.1', 39768) 
+2023-05-28 23:07:28,649 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> receiving {'action': 'presence', 'time': 1685304448.6135077, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:07:28,649 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> receiving {'action': 'presence', 'time': 1685304448.6135077, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:07:28,665 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:07:28,665 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:07:28,665 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> 
+2023-05-28 23:07:28,665 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> 
+2023-05-28 23:07:44,848 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> receiving {'action': 'message', 'time': 1685304464.6641667, 'type': 'message', 'destination': 'user_0', 'text': 'd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:07:44,848 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39768)> receiving {'action': 'message', 'time': 1685304464.6641667, 'type': 'message', 'destination': 'user_0', 'text': 'd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:07:44,869 - INFO - server - message {'action': 'message', 'time': 1685304464.6641667, 'type': 'message', 'destination': 'user_0', 'text': 'd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 23:07:44,869 -  message {'action': 'message', 'time': 1685304464.6641667, 'type': 'message', 'destination': 'user_0', 'text': 'd', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 23:08:44,470 - INFO - server - connected from ('127.0.0.1', 43782) 
+2023-05-28 23:08:44,470 -  connected from ('127.0.0.1', 43782) 
+2023-05-28 23:08:44,470 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> receiving {'action': 'presence', 'time': 1685304523.5381305, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:08:44,470 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> receiving {'action': 'presence', 'time': 1685304523.5381305, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:08:44,487 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:08:44,487 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:08:44,488 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> 
+2023-05-28 23:08:44,488 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> 
+2023-05-28 23:08:51,131 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> receiving {'action': 'del_contact', 'time': 1685304530.9691863, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:08:51,131 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 43782)> receiving {'action': 'del_contact', 'time': 1685304530.9691863, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:12:40,020 - INFO - server - start program 
+2023-05-28 23:12:40,020 -  start program 
+2023-05-28 23:12:46,155 - INFO - server - connected from ('127.0.0.1', 56338) 
+2023-05-28 23:12:46,155 -  connected from ('127.0.0.1', 56338) 
+2023-05-28 23:12:46,155 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> receiving {'action': 'presence', 'time': 1685304766.1557498, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:12:46,155 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> receiving {'action': 'presence', 'time': 1685304766.1557498, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:12:46,178 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:12:46,178 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:12:46,178 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> 
+2023-05-28 23:12:46,178 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> 
+2023-05-28 23:12:58,195 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> receiving {'action': 'del_contact', 'time': 1685304778.146348, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:12:58,195 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56338)> receiving {'action': 'del_contact', 'time': 1685304778.146348, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:19:28,610 - INFO - server - start program 
+2023-05-28 23:19:28,610 -  start program 
+2023-05-28 23:19:37,192 - INFO - server - connected from ('127.0.0.1', 36486) 
+2023-05-28 23:19:37,192 -  connected from ('127.0.0.1', 36486) 
+2023-05-28 23:19:37,393 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> receiving {'action': 'presence', 'time': 1685305177.1927817, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:19:37,393 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> receiving {'action': 'presence', 'time': 1685305177.1927817, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:19:37,415 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:19:37,415 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:19:37,415 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> 
+2023-05-28 23:19:37,415 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> 
+2023-05-28 23:19:44,118 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> receiving {'action': 'del_contact', 'time': 1685305184.0231917, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:19:44,118 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36486)> receiving {'action': 'del_contact', 'time': 1685305184.0231917, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:23:09,901 - INFO - server - start program 
+2023-05-28 23:23:09,901 -  start program 
+2023-05-28 23:23:18,326 - INFO - server - connected from ('127.0.0.1', 52072) 
+2023-05-28 23:23:18,326 -  connected from ('127.0.0.1', 52072) 
+2023-05-28 23:23:18,326 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> receiving {'action': 'presence', 'time': 1685305397.8273046, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:23:18,326 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> receiving {'action': 'presence', 'time': 1685305397.8273046, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:23:18,349 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:23:18,349 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:23:18,349 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> 
+2023-05-28 23:23:18,349 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> 
+2023-05-28 23:23:24,602 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> receiving {'action': 'del_contact', 'time': 1685305404.5805786, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:23:24,602 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> receiving {'action': 'del_contact', 'time': 1685305404.5805786, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:23:24,604 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:23:24,604 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:23:24,604 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> 
+2023-05-28 23:23:24,604 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52072)> 
+2023-05-28 23:25:00,440 - INFO - server - start program 
+2023-05-28 23:25:00,440 -  start program 
+2023-05-28 23:25:41,499 - INFO - server - start program 
+2023-05-28 23:25:41,499 -  start program 
+2023-05-28 23:25:48,722 - INFO - server - connected from ('127.0.0.1', 49644) 
+2023-05-28 23:25:48,722 -  connected from ('127.0.0.1', 49644) 
+2023-05-28 23:25:48,724 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> receiving {'action': 'presence', 'time': 1685305548.4752853, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:25:48,724 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> receiving {'action': 'presence', 'time': 1685305548.4752853, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:25:48,782 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:25:48,782 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:25:48,783 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> 
+2023-05-28 23:25:48,783 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> 
+2023-05-28 23:25:55,032 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> receiving {'action': 'del_contact', 'time': 1685305554.9661465, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:25:55,032 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49644)> receiving {'action': 'del_contact', 'time': 1685305554.9661465, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:27:23,315 - INFO - server - start program 
+2023-05-28 23:27:23,315 -  start program 
+2023-05-28 23:27:30,612 - INFO - server - connected from ('127.0.0.1', 33454) 
+2023-05-28 23:27:30,612 -  connected from ('127.0.0.1', 33454) 
+2023-05-28 23:27:30,613 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> receiving {'action': 'presence', 'time': 1685305650.6127756, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:27:30,613 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> receiving {'action': 'presence', 'time': 1685305650.6127756, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:27:30,629 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:27:30,629 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:27:30,629 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> 
+2023-05-28 23:27:30,629 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> 
+2023-05-28 23:27:37,906 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> receiving {'action': 'del_contact', 'time': 1685305657.8622813, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:27:37,906 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33454)> receiving {'action': 'del_contact', 'time': 1685305657.8622813, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:28:17,877 - INFO - server - start program 
+2023-05-28 23:28:17,877 -  start program 
+2023-05-28 23:29:01,600 - INFO - server - start program 
+2023-05-28 23:29:01,600 -  start program 
+2023-05-28 23:29:03,310 - INFO - server - start program 
+2023-05-28 23:29:03,310 -  start program 
+2023-05-28 23:29:15,216 - INFO - server - start program 
+2023-05-28 23:29:15,216 -  start program 
+2023-05-28 23:29:22,489 - INFO - server - connected from ('127.0.0.1', 36110) 
+2023-05-28 23:29:22,489 -  connected from ('127.0.0.1', 36110) 
+2023-05-28 23:29:22,489 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> receiving {'action': 'presence', 'time': 1685305762.4893942, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:29:22,489 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> receiving {'action': 'presence', 'time': 1685305762.4893942, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:29:22,504 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:29:22,504 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:29:22,505 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> 
+2023-05-28 23:29:22,505 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> 
+2023-05-28 23:29:32,499 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> receiving {'action': 'del_contact', 'time': 1685305772.4512653, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:29:32,499 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36110)> receiving {'action': 'del_contact', 'time': 1685305772.4512653, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:34:06,285 - INFO - server - start program 
+2023-05-28 23:34:06,285 -  start program 
+2023-05-28 23:34:14,726 - INFO - server - connected from ('127.0.0.1', 35706) 
+2023-05-28 23:34:14,726 -  connected from ('127.0.0.1', 35706) 
+2023-05-28 23:34:14,727 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> receiving {'action': 'presence', 'time': 1685306054.2857254, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:34:14,727 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> receiving {'action': 'presence', 'time': 1685306054.2857254, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:34:14,776 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:34:14,776 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:34:14,777 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> 
+2023-05-28 23:34:14,777 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> 
+2023-05-28 23:34:23,654 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> receiving {'action': 'del_contact', 'time': 1685306063.4826224, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:34:23,654 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> receiving {'action': 'del_contact', 'time': 1685306063.4826224, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:34:23,658 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:34:23,658 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:34:23,658 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> 
+2023-05-28 23:34:23,658 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 35706)> 
+2023-05-28 23:35:01,253 - INFO - server - start program 
+2023-05-28 23:35:01,253 -  start program 
+2023-05-28 23:35:14,272 - INFO - server - start program 
+2023-05-28 23:35:14,272 -  start program 
+2023-05-28 23:35:15,945 - INFO - server - start program 
+2023-05-28 23:35:15,945 -  start program 
+2023-05-28 23:35:27,740 - INFO - server - start program 
+2023-05-28 23:35:27,740 -  start program 
+2023-05-28 23:35:29,312 - INFO - server - start program 
+2023-05-28 23:35:29,312 -  start program 
+2023-05-28 23:35:43,324 - INFO - server - start program 
+2023-05-28 23:35:43,324 -  start program 
+2023-05-28 23:35:47,567 - INFO - server - start program 
+2023-05-28 23:35:47,567 -  start program 
+2023-05-28 23:35:54,789 - INFO - server - connected from ('127.0.0.1', 46338) 
+2023-05-28 23:35:54,789 -  connected from ('127.0.0.1', 46338) 
+2023-05-28 23:35:54,789 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'presence', 'time': 1685306154.213577, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:35:54,789 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'presence', 'time': 1685306154.213577, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:35:54,809 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:35:54,809 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:35:54,810 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:35:54,810 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:04,484 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306164.3655179, 'user_login': 'user_3', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:04,484 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306164.3655179, 'user_login': 'user_3', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:04,486 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:04,486 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:04,486 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:04,486 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:23,463 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306183.2790475, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:23,463 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306183.2790475, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:23,466 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:23,466 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:23,466 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:23,466 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:38,001 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306197.887655, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:38,001 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> receiving {'action': 'del_contact', 'time': 1685306197.887655, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:36:38,025 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:38,025 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:36:38,026 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:36:38,026 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46338)> 
+2023-05-28 23:39:05,736 - INFO - server - start program 
+2023-05-28 23:39:05,736 -  start program 
+2023-05-28 23:39:12,961 - INFO - server - connected from ('127.0.0.1', 41588) 
+2023-05-28 23:39:12,961 -  connected from ('127.0.0.1', 41588) 
+2023-05-28 23:39:12,962 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> receiving {'action': 'presence', 'time': 1685306351.963322, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:39:12,962 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> receiving {'action': 'presence', 'time': 1685306351.963322, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:39:12,989 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:39:12,989 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:39:12,990 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> 
+2023-05-28 23:39:12,990 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> 
+2023-05-28 23:39:16,234 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> receiving {'action': 'get_contacts', 'time': 1685306356.186307, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:39:16,234 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> receiving {'action': 'get_contacts', 'time': 1685306356.186307, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:39:16,238 - INFO - server - response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:39:16,238 -  response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:39:16,239 - INFO - server - message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> 
+2023-05-28 23:39:16,239 -  message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41588)> 
+2023-05-28 23:39:44,685 - INFO - server - start program 
+2023-05-28 23:39:44,685 -  start program 
+2023-05-28 23:39:57,499 - INFO - server - start program 
+2023-05-28 23:39:57,499 -  start program 
+2023-05-28 23:40:07,362 - INFO - server - start program 
+2023-05-28 23:40:07,362 -  start program 
+2023-05-28 23:40:08,658 - INFO - server - start program 
+2023-05-28 23:40:08,658 -  start program 
+2023-05-28 23:40:22,297 - INFO - server - start program 
+2023-05-28 23:40:22,297 -  start program 
+2023-05-28 23:40:24,454 - INFO - server - start program 
+2023-05-28 23:40:24,454 -  start program 
+2023-05-28 23:40:32,192 - INFO - server - start program 
+2023-05-28 23:40:32,192 -  start program 
+2023-05-28 23:40:36,090 - INFO - server - start program 
+2023-05-28 23:40:36,090 -  start program 
+2023-05-28 23:40:44,529 - INFO - server - connected from ('127.0.0.1', 36170) 
+2023-05-28 23:40:44,529 -  connected from ('127.0.0.1', 36170) 
+2023-05-28 23:40:44,530 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'presence', 'time': 1685306443.6352723, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:40:44,530 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'presence', 'time': 1685306443.6352723, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:40:44,560 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:40:44,560 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:40:44,560 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> 
+2023-05-28 23:40:44,560 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> 
+2023-05-28 23:40:47,194 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'get_contacts', 'time': 1685306447.0594916, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:40:47,194 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'get_contacts', 'time': 1685306447.0594916, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:40:47,198 - INFO - server - response {'response': 202, 'alert': []} 
+2023-05-28 23:40:47,198 -  response {'response': 202, 'alert': []} 
+2023-05-28 23:40:47,198 - INFO - server - message {'response': 202, 'alert': []} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> 
+2023-05-28 23:40:47,198 -  message {'response': 202, 'alert': []} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> 
+2023-05-28 23:41:14,889 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'message', 'time': 1685306474.8884158, 'type': 'message', 'destination': '', 'text': '', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:41:14,889 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'message', 'time': 1685306474.8884158, 'type': 'message', 'destination': '', 'text': '', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:41:14,890 - INFO - server - message {'action': 'message', 'time': 1685306474.8884158, 'type': 'message', 'destination': '', 'text': '', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 23:41:14,890 -  message {'action': 'message', 'time': 1685306474.8884158, 'type': 'message', 'destination': '', 'text': '', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-28 23:41:36,007 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'message', 'time': 1685306495.9974651, 'type': 'message', 'destination': 'user_2', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:41:36,007 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36170)> receiving {'action': 'message', 'time': 1685306495.9974651, 'type': 'message', 'destination': 'user_2', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:43:11,207 - INFO - server - start program 
+2023-05-28 23:43:11,207 -  start program 
+2023-05-28 23:43:19,725 - INFO - server - connected from ('127.0.0.1', 39970) 
+2023-05-28 23:43:19,725 -  connected from ('127.0.0.1', 39970) 
+2023-05-28 23:43:19,725 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> receiving {'action': 'presence', 'time': 1685306599.7256658, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:43:19,725 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> receiving {'action': 'presence', 'time': 1685306599.7256658, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:43:19,741 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:43:19,741 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:43:19,741 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> 
+2023-05-28 23:43:19,741 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> 
+2023-05-28 23:43:28,634 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> receiving {'action': 'add_contact', 'time': 1685306608.6124396, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:43:28,634 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39970)> receiving {'action': 'add_contact', 'time': 1685306608.6124396, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:46:15,185 - INFO - server - start program 
+2023-05-28 23:46:15,185 -  start program 
+2023-05-28 23:46:22,414 - INFO - server - connected from ('127.0.0.1', 49676) 
+2023-05-28 23:46:22,414 -  connected from ('127.0.0.1', 49676) 
+2023-05-28 23:46:22,414 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'presence', 'time': 1685306782.1778338, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:46:22,414 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'presence', 'time': 1685306782.1778338, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:46:22,440 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:46:22,440 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:46:22,440 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> 
+2023-05-28 23:46:22,440 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> 
+2023-05-28 23:46:28,108 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'add_contact', 'time': 1685306788.048369, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:46:28,108 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'add_contact', 'time': 1685306788.048369, 'user_login': 'user_0', 'user': {'account_name': 'alex'}} 
+2023-05-28 23:46:28,119 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:46:28,119 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-28 23:46:28,120 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> 
+2023-05-28 23:46:28,120 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> 
+2023-05-28 23:46:35,401 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'get_contacts', 'time': 1685306795.3859136, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:46:35,401 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49676)> receiving {'action': 'get_contacts', 'time': 1685306795.3859136, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:46:35,405 - INFO - server - response {'response': 202, 'alert': [<server_db.User object at 0x7f57bfef5030>]} 
+2023-05-28 23:46:35,405 -  response {'response': 202, 'alert': [<server_db.User object at 0x7f57bfef5030>]} 
+2023-05-28 23:49:40,019 - INFO - server - start program 
+2023-05-28 23:49:40,019 -  start program 
+2023-05-28 23:49:46,034 - INFO - server - connected from ('127.0.0.1', 50150) 
+2023-05-28 23:49:46,034 -  connected from ('127.0.0.1', 50150) 
+2023-05-28 23:49:46,035 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> receiving {'action': 'presence', 'time': 1685306985.6483169, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:49:46,035 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> receiving {'action': 'presence', 'time': 1685306985.6483169, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:49:46,095 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:49:46,095 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:49:46,095 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> 
+2023-05-28 23:49:46,095 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> 
+2023-05-28 23:49:47,904 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> receiving {'action': 'get_contacts', 'time': 1685306987.9024107, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:49:47,904 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50150)> receiving {'action': 'get_contacts', 'time': 1685306987.9024107, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:49:47,908 - INFO - server - response {'response': 202, 'alert': [<server_db.User object at 0x7f640faec040>]} 
+2023-05-28 23:49:47,908 -  response {'response': 202, 'alert': [<server_db.User object at 0x7f640faec040>]} 
+2023-05-28 23:51:44,039 - INFO - server - start program 
+2023-05-28 23:51:44,039 -  start program 
+2023-05-28 23:51:51,290 - INFO - server - connected from ('127.0.0.1', 56076) 
+2023-05-28 23:51:51,290 -  connected from ('127.0.0.1', 56076) 
+2023-05-28 23:51:51,290 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> receiving {'action': 'presence', 'time': 1685307110.4935021, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:51:51,290 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> receiving {'action': 'presence', 'time': 1685307110.4935021, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:51:51,312 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:51:51,312 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:51:51,312 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> 
+2023-05-28 23:51:51,312 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> 
+2023-05-28 23:51:52,924 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> receiving {'action': 'get_contacts', 'time': 1685307112.7754219, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:51:52,924 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)> receiving {'action': 'get_contacts', 'time': 1685307112.7754219, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:51:52,939 - INFO - server - response {'response': 202, 'alert': [<server_db.User object at 0x7f1623ff8040>]} 
+2023-05-28 23:51:52,939 -  response {'response': 202, 'alert': [<server_db.User object at 0x7f1623ff8040>]} 
+2023-05-28 23:56:11,486 - INFO - server - start program 
+2023-05-28 23:56:11,486 -  start program 
+2023-05-28 23:56:17,501 - INFO - server - connected from ('127.0.0.1', 52242) 
+2023-05-28 23:56:17,501 -  connected from ('127.0.0.1', 52242) 
+2023-05-28 23:56:17,502 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> receiving {'action': 'presence', 'time': 1685307376.9224308, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:56:17,502 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> receiving {'action': 'presence', 'time': 1685307376.9224308, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:56:17,549 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:56:17,549 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:56:17,549 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> 
+2023-05-28 23:56:17,549 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> 
+2023-05-28 23:56:18,760 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> receiving {'action': 'get_contacts', 'time': 1685307378.7461543, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:56:18,760 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> receiving {'action': 'get_contacts', 'time': 1685307378.7461543, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:56:18,762 - INFO - server - response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:56:18,762 -  response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:56:18,763 - INFO - server - message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> 
+2023-05-28 23:56:18,763 -  message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52242)> 
+2023-05-28 23:58:56,243 - INFO - server - start program 
+2023-05-28 23:58:56,243 -  start program 
+2023-05-28 23:59:02,258 - INFO - server - connected from ('127.0.0.1', 60642) 
+2023-05-28 23:59:02,258 -  connected from ('127.0.0.1', 60642) 
+2023-05-28 23:59:02,258 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> receiving {'action': 'presence', 'time': 1685307541.9511487, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:59:02,258 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> receiving {'action': 'presence', 'time': 1685307541.9511487, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-28 23:59:02,286 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:59:02,286 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-28 23:59:02,286 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> 
+2023-05-28 23:59:02,286 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> 
+2023-05-28 23:59:03,700 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> receiving {'action': 'get_contacts', 'time': 1685307543.571262, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:59:03,700 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> receiving {'action': 'get_contacts', 'time': 1685307543.571262, 'user': {'account_name': 'alex'}} 
+2023-05-28 23:59:03,706 - INFO - server - response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:59:03,706 -  response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-28 23:59:03,707 - INFO - server - message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> 
+2023-05-28 23:59:03,707 -  message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60642)> 
+2023-05-28 23:59:40,267 - INFO - server - start program 
+2023-05-28 23:59:40,267 -  start program 
+2023-05-28 23:59:51,624 - INFO - server - start program 
+2023-05-28 23:59:51,624 -  start program 
+2023-05-28 23:59:55,204 - INFO - server - start program 
+2023-05-28 23:59:55,204 -  start program 
+2023-05-29 00:00:20,638 - INFO - server - start program 
+2023-05-29 00:00:20,638 -  start program 
+2023-05-29 00:00:22,020 - INFO - server - start program 
+2023-05-29 00:00:22,020 -  start program 
+2023-05-29 00:00:29,585 - INFO - server - start program 
+2023-05-29 00:00:29,585 -  start program 
+2023-05-29 00:00:30,762 - INFO - server - start program 
+2023-05-29 00:00:30,762 -  start program 
+2023-05-29 00:00:31,709 - INFO - server - start program 
+2023-05-29 00:00:31,709 -  start program 
+2023-05-29 00:00:38,134 - INFO - server - start program 
+2023-05-29 00:00:38,134 -  start program 
+2023-05-29 00:00:39,322 - INFO - server - start program 
+2023-05-29 00:00:39,322 -  start program 
+2023-05-29 00:00:57,842 - INFO - server - start program 
+2023-05-29 00:00:57,842 -  start program 
+2023-05-29 00:01:05,177 - INFO - server - connected from ('127.0.0.1', 52732) 
+2023-05-29 00:01:05,177 -  connected from ('127.0.0.1', 52732) 
+2023-05-29 00:01:05,381 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> receiving {'action': 'presence', 'time': 1685307665.177752, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:01:05,381 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> receiving {'action': 'presence', 'time': 1685307665.177752, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:01:05,412 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:01:05,412 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:01:05,413 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> 
+2023-05-29 00:01:05,413 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> 
+2023-05-29 00:01:07,222 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> receiving {'action': 'get_contacts', 'time': 1685307667.1034033, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:01:07,222 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> receiving {'action': 'get_contacts', 'time': 1685307667.1034033, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:01:07,226 - INFO - server - response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-29 00:01:07,226 -  response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-29 00:01:07,226 - INFO - server - message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> 
+2023-05-29 00:01:07,226 -  message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52732)> 
+2023-05-29 00:04:07,239 - INFO - server - start program 
+2023-05-29 00:04:07,239 -  start program 
+2023-05-29 00:04:13,263 - INFO - server - connected from ('127.0.0.1', 41284) 
+2023-05-29 00:04:13,263 -  connected from ('127.0.0.1', 41284) 
+2023-05-29 00:04:13,263 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> receiving {'action': 'presence', 'time': 1685307853.183862, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:04:13,263 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> receiving {'action': 'presence', 'time': 1685307853.183862, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:04:13,278 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:04:13,278 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:04:13,278 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> 
+2023-05-29 00:04:13,278 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> 
+2023-05-29 00:04:14,886 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> receiving {'action': 'get_contacts', 'time': 1685307854.7126105, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:04:14,886 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> receiving {'action': 'get_contacts', 'time': 1685307854.7126105, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:04:14,905 - INFO - server - response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-29 00:04:14,905 -  response {'response': 202, 'alert': [1, 2, 3]} 
+2023-05-29 00:04:14,906 - INFO - server - message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> 
+2023-05-29 00:04:14,906 -  message {'response': 202, 'alert': [1, 2, 3]} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41284)> 
+2023-05-29 00:04:50,986 - INFO - server - start program 
+2023-05-29 00:04:50,986 -  start program 
+2023-05-29 00:05:22,877 - INFO - server - start program 
+2023-05-29 00:05:22,877 -  start program 
+2023-05-29 00:05:48,095 - INFO - server - start program 
+2023-05-29 00:05:48,095 -  start program 
+2023-05-29 00:05:56,512 - INFO - server - connected from ('127.0.0.1', 59220) 
+2023-05-29 00:05:56,512 -  connected from ('127.0.0.1', 59220) 
+2023-05-29 00:05:56,513 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> receiving {'action': 'presence', 'time': 1685307956.1139607, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:05:56,513 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> receiving {'action': 'presence', 'time': 1685307956.1139607, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:05:56,528 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:05:56,528 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:05:56,528 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> 
+2023-05-29 00:05:56,528 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> 
+2023-05-29 00:05:57,943 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> receiving {'action': 'get_contacts', 'time': 1685307957.748748, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:05:57,943 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> receiving {'action': 'get_contacts', 'time': 1685307957.748748, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:05:57,957 - INFO - server - response {'response': 202, 'alert': ['user_0']} 
+2023-05-29 00:05:57,957 -  response {'response': 202, 'alert': ['user_0']} 
+2023-05-29 00:05:57,958 - INFO - server - message {'response': 202, 'alert': ['user_0']} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> 
+2023-05-29 00:05:57,958 -  message {'response': 202, 'alert': ['user_0']} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59220)> 
+2023-05-29 00:06:11,689 - INFO - server - connected from ('127.0.0.1', 60996) 
+2023-05-29 00:06:11,689 -  connected from ('127.0.0.1', 60996) 
+2023-05-29 00:06:11,690 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> receiving {'action': 'presence', 'time': 1685307970.8202767, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:06:11,690 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> receiving {'action': 'presence', 'time': 1685307970.8202767, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:06:11,723 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:06:11,723 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:06:11,725 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> 
+2023-05-29 00:06:11,725 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> 
+2023-05-29 00:06:20,224 - INFO - server - from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> receiving {'action': 'add_contact', 'time': 1685307980.082475, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-29 00:06:20,224 -  from <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> receiving {'action': 'add_contact', 'time': 1685307980.082475, 'user_login': 'user_2', 'user': {'account_name': 'alex'}} 
+2023-05-29 00:06:20,235 - INFO - server - response {'response': 201, 'alert': 'OK'} 
+2023-05-29 00:06:20,235 -  response {'response': 201, 'alert': 'OK'} 
+2023-05-29 00:06:20,235 - INFO - server - message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> 
+2023-05-29 00:06:20,235 -  message {'response': 201, 'alert': 'OK'} sent <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60996)> 
+2023-05-29 00:06:30,891 - INFO - server - connected from ('127.0.0.1', 56280) 
+2023-05-29 00:06:30,891 -  connected from ('127.0.0.1', 56280) 
+2023-05-29 00:06:30,892 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> receiving {'action': 'presence', 'time': 1685307990.420641, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:06:30,892 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> receiving {'action': 'presence', 'time': 1685307990.420641, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:06:30,907 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:06:30,907 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:06:30,908 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> 
+2023-05-29 00:06:30,908 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> 
+2023-05-29 00:06:37,153 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> receiving {'action': 'get_contacts', 'time': 1685307997.133542, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:06:37,153 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> receiving {'action': 'get_contacts', 'time': 1685307997.133542, 'user': {'account_name': 'alex'}} 
+2023-05-29 00:06:37,156 - INFO - server - response {'response': 202, 'alert': ['user_0', 'user_2']} 
+2023-05-29 00:06:37,156 -  response {'response': 202, 'alert': ['user_0', 'user_2']} 
+2023-05-29 00:06:37,156 - INFO - server - message {'response': 202, 'alert': ['user_0', 'user_2']} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> 
+2023-05-29 00:06:37,156 -  message {'response': 202, 'alert': ['user_0', 'user_2']} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56280)> 
+2023-05-29 00:41:08,632 - INFO - server - start program 
+2023-05-29 00:41:08,632 -  start program 
+2023-05-29 00:41:21,860 - INFO - server - connected from ('127.0.0.1', 47448) 
+2023-05-29 00:41:21,860 -  connected from ('127.0.0.1', 47448) 
+2023-05-29 00:41:21,861 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'presence', 'time': 1685310081.0772955, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:41:21,861 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'presence', 'time': 1685310081.0772955, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:41:21,894 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:41:21,894 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:41:21,894 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> 
+2023-05-29 00:41:21,894 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> 
+2023-05-29 00:41:37,318 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'message', 'time': 1685310097.2386594, 'type': 'message', 'destination': 'user_0', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:41:37,318 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'message', 'time': 1685310097.2386594, 'type': 'message', 'destination': 'user_0', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:41:37,330 - INFO - server - message {'action': 'message', 'time': 1685310097.2386594, 'type': 'message', 'destination': 'user_0', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:41:37,330 -  message {'action': 'message', 'time': 1685310097.2386594, 'type': 'message', 'destination': 'user_0', 'text': 'test', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:47:36,698 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'message', 'time': 1685310456.6118653, 'type': 'message', 'destination': 'user_2', 'text': 'test-2', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:47:36,698 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 47448)> receiving {'action': 'message', 'time': 1685310456.6118653, 'type': 'message', 'destination': 'user_2', 'text': 'test-2', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:47:36,708 - INFO - server - message {'action': 'message', 'time': 1685310456.6118653, 'type': 'message', 'destination': 'user_2', 'text': 'test-2', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:47:36,708 -  message {'action': 'message', 'time': 1685310456.6118653, 'type': 'message', 'destination': 'user_2', 'text': 'test-2', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:49:10,361 - INFO - server - connected from ('127.0.0.1', 39960) 
+2023-05-29 00:49:10,361 -  connected from ('127.0.0.1', 39960) 
+2023-05-29 00:49:10,362 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> receiving {'action': 'presence', 'time': 1685310550.1348705, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:49:10,362 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> receiving {'action': 'presence', 'time': 1685310550.1348705, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:49:10,377 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:49:10,377 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:49:10,378 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> 
+2023-05-29 00:49:10,378 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> 
+2023-05-29 00:49:22,911 - INFO - server - from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> receiving {'action': 'message', 'time': 1685310562.766538, 'type': 'message', 'destination': 'user_2', 'text': 'test-3', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:49:22,911 -  from <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39960)> receiving {'action': 'message', 'time': 1685310562.766538, 'type': 'message', 'destination': 'user_2', 'text': 'test-3', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:49:22,928 - INFO - server - message {'action': 'message', 'time': 1685310562.766538, 'type': 'message', 'destination': 'user_2', 'text': 'test-3', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:49:22,928 -  message {'action': 'message', 'time': 1685310562.766538, 'type': 'message', 'destination': 'user_2', 'text': 'test-3', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:51:30,676 - INFO - server - connected from ('127.0.0.1', 48038) 
+2023-05-29 00:51:30,676 -  connected from ('127.0.0.1', 48038) 
+2023-05-29 00:51:30,677 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> receiving {'action': 'presence', 'time': 1685310690.51172, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:51:30,677 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> receiving {'action': 'presence', 'time': 1685310690.51172, 'type': 'status', 'text': 'Hello!', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:51:30,687 - INFO - server - response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:51:30,687 -  response {'response': 200, 'alert': 'OK'} 
+2023-05-29 00:51:30,687 - INFO - server - message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> 
+2023-05-29 00:51:30,687 -  message {'response': 200, 'alert': 'OK'} sent <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> 
+2023-05-29 00:51:43,649 - INFO - server - from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> receiving {'action': 'message', 'time': 1685310703.5173755, 'type': 'message', 'destination': 'user_2', 'text': 'test-4', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:51:43,649 -  from <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48038)> receiving {'action': 'message', 'time': 1685310703.5173755, 'type': 'message', 'destination': 'user_2', 'text': 'test-4', 'user': {'account_name': 'alex', 'status': 'I am here!'}} 
+2023-05-29 00:51:43,669 - INFO - server - message {'action': 'message', 'time': 1685310703.5173755, 'type': 'message', 'destination': 'user_2', 'text': 'test-4', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 
+2023-05-29 00:51:43,669 -  message {'action': 'message', 'time': 1685310703.5173755, 'type': 'message', 'destination': 'user_2', 'text': 'test-4', 'user': {'account_name': 'alex', 'status': 'I am here!'}} sent 

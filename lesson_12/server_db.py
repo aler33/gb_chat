@@ -1,4 +1,4 @@
-from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey, create_engine, DATETIME
+from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey, create_engine, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
 # from sqlalchemy.orm import registry
 from datetime import datetime
@@ -15,19 +15,19 @@ users = Table('Users', metadata,
 users_history = Table('Users_history', metadata,
                       Column('id', Integer, primary_key=True),
                       Column('user', ForeignKey('Users.id')),
-                      Column('login_time', DATETIME),
-                      Column('address', String(30))
+                      Column('login_time', DateTime),
+                      Column('address', String(200))
                       )
 
 contacts_users = Table('Contacts_users', metadata,
-                       Column('user', Integer, ForeignKey('Users.id')),
-                       Column('contacts', Integer, ForeignKey('Users.id')),
+                       Column('user', ForeignKey('Users.id')),
+                       Column('contacts', ForeignKey('Users.id')),
                        )
 
 contacts = Table('Contacts', metadata,
                  Column('id', Integer, primary_key=True),
                  Column('user', ForeignKey('Users.id')),
-                 Column('contacts', ForeignKey('Users.name')),
+                 Column('contacts', ForeignKey('Users.id')),
                  # contact = relationship('contacts', secondary='contacts_users', backref='contacts')
                  )
 
@@ -45,7 +45,6 @@ class User:
 
 class UsersHistory:
     def __init__(self, user, login_time, address):
-        print('99999999999999999999')
         self.id = None
         self.user = user
         self.login_time = login_time
@@ -55,7 +54,7 @@ class UsersHistory:
 class Contacts:
     def __init__(self, user, contact):
         self.user = user
-        self.contact = contact
+        self.contacts = contact
 
 
 metadata.create_all(engine)
@@ -68,6 +67,7 @@ mapper(Contacts, contacts)
 
 
 def add_users(name, address, realname=None):
+    # print(f'address = {address}, len = {len(address)},,, {type(address)}')
     user_table = session.query(User).filter_by(name=name)
     if not user_table.count():
         user_new = User(name)
@@ -75,9 +75,40 @@ def add_users(name, address, realname=None):
         session.commit()
     else:
         user_new = user_table.first()
-        session.query(UsersHistory).filter_by(user=user_new.id).update({'login_time': datetime.now()},
-                                                                       synchronize_session='fetch')
+        # session.query(UsersHistory).filter_by(user=user_new.id).update({'login_time': datetime.now()},
+        #                                                                synchronize_session='fetch')
+    # print(f'address = {address}, len = {len(address)},,, {type(address)}')
+    # print(f'user_new.id = {user_new.id}')
+    # print(user_new.id, datetime.now(), address)
+    history = UsersHistory(user_new.id, datetime.now(), address)
+    session.add(history)
+
+    session.commit()
 
 
+def add_contact(from_name, to_name):
+    from_user = session.query(User).filter_by(name=from_name).first()
+    contact = session.query(User).filter_by(name=to_name).first()
+    if not from_user or not contact or session.query(Contacts).filter_by(user=from_name, contacts=to_name).count():
+        return
+    new_contact = Contacts(from_user.id, contact.id)
+    session.add(new_contact)
+    session.commit()
 
+
+def get_contact(from_name):
+    user = session.query(User).filter_by(name=from_name).one()
+    print(f'USER == {user.id}')
+    list_contact = session.query(Contacts, User).filter_by(user=user.id).join(User, Contacts.contacts == User.id)
+
+    return [contacts[1].name for contacts in list_contact.all()]
+
+
+def del_contact(from_name, to_name):
+    from_user = session.query(User).filter_by(name=from_name).first()
+    contact = session.query(User).filter_by(name=to_name).first()
+    if not from_user or not contact:
+        return
+    session.query(Contacts).filter(Contacts.user == from_user.id, Contacts.contacts == contact.id).delete()
+    print(f'DELETE!!!')
     session.commit()
