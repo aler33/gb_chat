@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Server module &#8212; messenger 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Client module" href="client.html" />
+    <link rel="prev" title="Welcome to messanger’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="server-module">
+<h1>Server module<a class="headerlink" href="#server-module" title="Permalink to this heading">¶</a></h1>
+<p>Server’s module.</p>
+<p>Launch:
+<cite>python server.py</cite></p>
+<ul class="simple">
+<li><p>arguments:</p></li>
+<li><p>-p - Number port. Default 7777</p></li>
+</ul>
+<section id="server-py">
+<h2>server.py<a class="headerlink" href="#server-py" title="Permalink to this heading">¶</a></h2>
+<p>Main server module</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server.ServerVerifier">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server.</span></span><span class="sig-name descname"><span class="pre">ServerVerifier</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">clsname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bases</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">clsdict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.ServerVerifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for check methods</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server.Sock">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server.</span></span><span class="sig-name descname"><span class="pre">Sock</span></span><a class="headerlink" href="#server.server.Sock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for create socked</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server.Server">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server.</span></span><span class="sig-name descname"><span class="pre">Server</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">addr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">port_numb</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main class for server</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="server.server.Server.autorize_user">
+<span class="sig-name descname"><span class="pre">autorize_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sock</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server.autorize_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for check authorizations user
+:param message: str
+:param sock: str
+:return: None or Raise Error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="server.server.Server.main_server">
+<span class="sig-name descname"><span class="pre">main_server</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server.main_server" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main function for class server
+:return: messages list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="server.server.Server.read_request">
+<span class="sig-name descname"><span class="pre">read_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">clients</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">all_clients</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">messages</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server.read_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Functon for receiving and processing messages
+:param clients: str
+:param all_clients: list
+:param messages: list
+:return: dict</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="server.server.Server.send_message">
+<span class="sig-name descname"><span class="pre">send_message</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">response</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server.send_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for sending messages
+:param client: str
+:param response: str
+:return: None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="server.server.Server.write_response">
+<span class="sig-name descname"><span class="pre">write_response</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w_clients</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">all_clients</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server.Server.write_response" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for processing response from clients
+:param message: str
+:param w_clients: list
+:param all_clients: list
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="server-db-py">
+<h2>server_db.py<a class="headerlink" href="#server-db-py" title="Permalink to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.User">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">User</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">passwd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">realname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for user table</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.UsersHistory">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">UsersHistory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">login_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">address</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.UsersHistory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for History table</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.Contacts">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">Contacts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contact</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.Contacts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for contacts table</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.add_users">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">add_users</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">address</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">passwd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">realname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.add_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>function for add user in user table and history table
+:param name: str
+:param address: str
+:param passwd: str
+:param realname:
+:return: None</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.add_contact">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">add_contact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">from_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.add_contact" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for add contact in table
+:param from_name: str
+:param to_name: str
+:return: None</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.get_contact">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">get_contact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">from_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.get_contact" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for get contact from contacts table
+:param from_name: str
+:return: None</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.del_contact">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">del_contact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">from_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.del_contact" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for deleting contacts from contacts table
+:param from_name: str
+:param to_name: str
+:return: None</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.get_users">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">get_users</span></span><a class="headerlink" href="#server.server_db.get_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for get user from Users table
+:return: list</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="server.server_db.get_hash">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">server.server_db.</span></span><span class="sig-name descname"><span class="pre">get_hash</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#server.server_db.get_hash" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for get hash from Users table
+:param name: str
+:return: str</p>
+</dd></dl>
+
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">messenger</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Server module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#server-py">server.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#server-db-py">server_db.py</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">Client module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to messanger’s documentation!</a></li>
+      <li>Next: <a href="client.html" title="next chapter">Client module</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Alexey.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/server.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
